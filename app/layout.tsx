@@ -1,14 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
-
+import Footer from "./footer";
+import localFont from "next/font/local";
+import Nav from "./components/nav";
+// import l from "../public/font/m"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const myCustomFont = localFont({
+  src: "../public/font/HelveticaNeueBlack.otf",
+  display: "swap",
+  weight: "500",
+  style: "medieum",
+  variable: "--font-helvetica",
+});
+
+const brick = Bricolage_Grotesque({
+  variable: "--font-bricolage-mono",
+  weight: ["500", "800", "400", "600", "700", "200", "300"],
   subsets: ["latin"],
 });
 
@@ -25,9 +37,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${brick.variable} ${myCustomFont.variable} bg-white mt-7 font-helvetica`}
       >
-        {children}
+        <main className="min-h-screen mx-auto max-w-[1440px]">
+          <Nav />
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
