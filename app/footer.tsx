@@ -4,7 +4,7 @@ import { ArrowLeft } from "./components/icons";
 export default function Footer() {
   return (
     <footer className="bg-[#F2F7FF]">
-      <div className=" mx-auto max-w-[1440px] py-14 border-b">
+      <div className=" mx-[120px] max-w-[1440px] py-14 border-b">
         <div className="grid grid-cols-3 items-end">
           <h2 className="text-black text-7xl font-medium">
             Let’s <br /> work <br />

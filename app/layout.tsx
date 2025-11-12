@@ -39,7 +39,7 @@ export default function RootLayout({
       <body
         className={`${brick.variable} ${myCustomFont.variable} bg-white mt-7 font-helvetica`}
       >
-        <main className="min-h-screen mx-auto max-w-[1440px]">
+        <main className="min-h-screen mx-[120px] max-w-[1440px]">
           <Nav />
           {children}
         </main>

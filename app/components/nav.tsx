@@ -6,9 +6,14 @@ export default function Nav() {
     <nav className="bg-[#FFFFFF] flex justify-between items-center gap-4 rounded-full py-4 px-6 shadow-md">
       <div className="flex items-center gap-3">
         <Image src={logo} alt="logo" />
-        <h2 className="text-[#1A1A1A] font-extrabold font-bricolage">
-          SEGUN <br /> ARIBIDO
-        </h2>
+        <div className="flex flex-col">
+          <span className="text-[#1A1A1A] font-extrabold font-bricolage">
+            SEGUN
+          </span>
+          <span className="text-[#1A1A1A] -mt-1 font-extrabold font-bricolage">
+            ARIBIDO
+          </span>
+        </div>
       </div>
       <ul className="text-[#1A1A1A] flex justify-between items-center gap-9">
         <li className="cursor-pointer text-[18px]">Home</li>
