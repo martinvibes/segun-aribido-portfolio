@@ -17,7 +17,7 @@ const SavePlus = () => {
 
       {/* Project Overview */}
       <div className="flex justify-between mt-[70px]">
-        <div className="w-[383px]">
+        <div className="w-[383px] sticky top-0 self-start">
           <h3 className="text-[#87909D] text-xs font-medium mb-1">
             UX/UI DESIGN
           </h3>
@@ -72,7 +72,7 @@ const SavePlus = () => {
 
       {/* Design Process */}
       <div className="flex justify-between gap-10 mt-[120px]">
-        <div>
+        <div className="w-[383px] sticky top-[70px] self-start">
           <h1 className="text-[#1A1A1A] text-[32px] font-bold mb-1">
             Design Process
           </h1>
@@ -109,7 +109,7 @@ const SavePlus = () => {
 
       {/* Research */}
       <div className="flex justify-between gap-10 mt-[120px]">
-        <div>
+        <div className="sticky top-0 self-start">
           <h1 className="text-[#1A1A1A] text-[32px] font-bold mb-1">
             Research
           </h1>
@@ -196,7 +196,7 @@ const SavePlus = () => {
       </div>
 
       <div className="mt-[120px] flex justify-between gap-10">
-        <div className="w-[384px]">
+        <div className="w-[384px] sticky top-0 self-start">
           <h1 className="text-[32px] font-bold text-[#1A1A1A]">Sketches</h1>
           <p className="text-lg font-normal mt-2 leading-[26px] text-[#556070]">
             To visualize and refine the product experience, I designed and

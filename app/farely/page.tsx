@@ -28,7 +28,7 @@ const Farely = () => {
             className="flex justify-between gap-10 items-start mt-[100px]"
           >
             {/* Left Column */}
-            <div className="w-[383px] shrink-0">
+            <div className="w-[383px] shrink-0 sticky top-0 self-start">
               {index === 0 && (
                 <h3 className="text-[#87909D] text-xs font-medium mb-1">
                   UX/UI DESIGN
@@ -90,7 +90,7 @@ const Farely = () => {
 
       {/* User Personas */}
       <div className="flex justify-between gap-10 items-start mt-[120px]">
-        <div className="w-[383px] shrink-0">
+        <div className="w-[383px] shrink-0 sticky top-0 self-start">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {userPersonasSection.leftTitle}
           </h2>
@@ -133,7 +133,7 @@ const Farely = () => {
 
       {/* Design Approach */}
       <div className="flex justify-between gap-10 items-start mt-[120px]">
-        <div className="w-[383px] shrink-0 mt-[10px">
+        <div className="w-[383px] shrink-0 mt-[10px] sticky top-0 self-start">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {designApproachSection.leftTitle}
           </h2>
@@ -204,7 +204,7 @@ const Farely = () => {
 
       {/* Outcome */}
       <div className=" gap-10 items-start mt-[120px] w-[543px]">
-        <div className="w-[383px] shrink-0">
+        <div className="w-[383px] shrink-0 sticky top-0 self-start">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {outcomeSection.leftTitle}
           </h2>
@@ -226,7 +226,7 @@ const Farely = () => {
 
       {/* Reflection */}
       <div className=" gap-10 items-start mt-[88px] mb-[108px] w-[543px]">
-        <div className="w-[383px] shrink-0">
+        <div className="w-[383px] shrink-0 sticky top-0 self-start">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {reflectionSection.leftTitle}
           </h2>
