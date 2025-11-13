@@ -11,12 +11,13 @@
   --font-sans: var(--font-geist-sans);
   --font-bricolage: var(--font-geist-sans);
   --font-helvetica: var(--font-helvetica);
+  --font-shadows-into-light: var(--font-shadows-into-light);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff66;
-    --foreground: #ededed;
+    --background: #f4f2fb;
+    --foreground: #f4f2fb;
   }
 }
 

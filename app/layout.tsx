@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Bricolage_Grotesque } from "next/font/google";
+import {
+  Geist,
+  Bricolage_Grotesque,
+  Shadows_Into_Light,
+} from "next/font/google";
 import "./globals.css";
 import Footer from "./footer";
 import localFont from "next/font/local";
 import Nav from "./components/nav";
 // import l from "../public/font/m"
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const shadowsIntoLight = Shadows_Into_Light({
+  variable: "--font-shadows-into-light",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400"],
 });
 
 const myCustomFont = localFont({
@@ -37,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${brick.variable} ${myCustomFont.variable} bg-white mt-7 font-helvetica`}
+        className={`${brick.variable} ${shadowsIntoLight.variable} ${myCustomFont.variable} bg-[#F4F2FB] mt-7 font-helvetica`}
       >
         <main className="min-h-screen mx-auto max-w-[1440px]">
           <Nav />
