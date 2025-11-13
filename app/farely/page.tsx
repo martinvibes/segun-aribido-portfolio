@@ -21,7 +21,7 @@ const Farely = () => {
       />
 
       {/* Project Overview */}
-      <div className="flex flex-col gap-8 mt-[70px]">
+      <div className="flex flex-col gap-8">
         {alignedSections.map((section, index) => (
           <div
             key={index}
