@@ -151,16 +151,16 @@ const CubosPage = () => {
           <p className="text-[#556070] text-lg font-normal leading-7">
             To clarify and validate the user experience early in the design
             process, I began by creating rough sketches and low-fidelity
-            wireframes that visualized my initial ideas for the platform’s key
-            interactions. These early design explorations helped me communicate
-            user flows clearly and align with stakeholders on functionality and
-            priorities before investing time in detailed visuals. By sharing and
-            iterating on these sketches, I gathered valuable stakeholder
-            feedback, refined the information architecture, and ensured that the
-            transition to high-fidelity, production-ready designs was both
-            efficient and user-driven. This collaborative and iterative approach
-            laid a strong foundation for a seamless, intuitive, and scalable
-            AI-powered news platform.
+            wireframes that visualized my initial ideas for the platform&apos;s
+            key interactions. These early design explorations helped me
+            communicate user flows clearly and align with stakeholders on
+            functionality and priorities before investing time in detailed
+            visuals. By sharing and iterating on these sketches, I gathered
+            valuable stakeholder feedback, refined the information architecture,
+            and ensured that the transition to high-fidelity, production-ready
+            designs was both efficient and user-driven. This collaborative and
+            iterative approach laid a strong foundation for a seamless,
+            intuitive, and scalable AI-powered news platform.
           </p>
         </div>
         <Image
@@ -197,6 +197,102 @@ const CubosPage = () => {
             height={354}
             className="w-full"
           />
+        </div>
+      </div>
+
+      {/* Dashboard Screenshots Grid */}
+      <div className="mt-[88px] grid grid-cols-1 sm:grid-cols-2 gap-6 rounded-lg bg-[#FFFFFF] px-7 pt-[50px] pb-[72px]">
+        <Image
+          src="/cubos/dash3.png"
+          alt="Cubos Dashboard 3"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+        <Image
+          src="/cubos/dash4.png"
+          alt="Cubos Dashboard 4"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+      </div>
+
+      <div className="mt-[40px] grid grid-cols-1 sm:grid-cols-2 gap-6 rounded-lg bg-[#FFFFFF] px-7 pt-[50px]">
+        <Image
+          src="/cubos/dash2.png"
+          alt="Cubos Dashboard 3"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+        <Image
+          src="/cubos/dash1.png"
+          alt="Cubos Dashboard 4"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+      </div>
+
+      <div className="mt-[40px] grid grid-cols-1 sm:grid-cols-2 gap-6 rounded-lg bg-[#FFFFFF] px-7 pt-[50px]">
+        <Image
+          src="/cubos/dash5.png"
+          alt="Cubos Dashboard 3"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+        <Image
+          src="/cubos/dash6.png"
+          alt="Cubos Dashboard 4"
+          width={600}
+          height={400}
+          className="w-full rounded-lg"
+        />
+      </div>
+
+      <div className=" gap-10 items-start mt-[88px] mb-[120px]">
+        <div className="w-[383px] shrink-0">
+          <h2 className="text-[#1A1A1A] text-[32px] font-bold">
+            Learning & Achievement
+          </h2>
+        </div>
+
+        <div className="w-[628px] shrink-0 space-y-2 mt-2 tracking-[0.8%] text-[#556070] text-lg leading-7">
+          <p className="">
+            To finalize the project, I consolidated all UI components into a
+            unified design system, ensuring visual consistency, scalability, and
+            development efficiency across the platform. This Figma-based design
+            system streamlined collaboration, enabling the engineering team to
+            implement, maintain, and iterate on the product with ease.
+          </p>
+          <p>
+            For quality assurance, I implemented a side-by-side design
+            validation process, comparing screenshots from the staging
+            environment with the original Figma design files. This method
+            allowed us to quickly identify and resolve visual discrepancies,
+            including spacing inconsistencies, color mismatches, and text
+            errors, ensuring pixel-perfect accuracy before launch.
+          </p>
+          <p>
+            This structured and detail-oriented approach resulted in a
+            high-quality, production-ready design that was efficient to build,
+            easy to maintain, and visually consistent across all user
+            interfaces.
+          </p>
+
+          <p className="mt-4 text-[#556070] text-lg font-normal leading-7">
+            <a
+              href="https://bit.ly/3wz0Okc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#556070]"
+            >
+              View project here{" "}
+              <span className="underline">https://bit.ly/3wz0Okc</span>
+            </a>
+          </p>
         </div>
       </div>
     </div>
