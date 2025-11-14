@@ -1,7 +1,7 @@
-export function ArrowLeft() {
+export function ArrowLeft({ size = "45" }: { size: string }) {
   return (
     <svg
-      width="45"
+      width={size}
       height="18"
       viewBox="0 0 45 18"
       fill="none"

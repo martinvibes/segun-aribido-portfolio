@@ -11,7 +11,7 @@ export default function Footer() {
             together
           </h2>
           <div className="flex items-center gap-4 sm:gap-6 md:gap-8">
-            <ArrowLeft />
+            <ArrowLeft size="48" />
             <h2 className="text-[#2F80ED] text-sm sm:text-base md:text-lg lg:text-xl break-all sm:break-normal">
               aribidoolusegun@gmail.com
             </h2>

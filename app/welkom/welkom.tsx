@@ -5,7 +5,7 @@ export default function WelkomSection() {
     <div className="flex justify-between">
       <div className="max-w-[383px]">
         <div className="sticky top-0">
-          <h3 className="text-[#87909D]text-[13px]">UX/UI DESIGN</h3>
+          <h3 className="text-[#87909D] text-[13px]">UX/UI DESIGN</h3>
           <h2 className="text-[32px] text-[#1A1A1A] font-bold">
             Welkom-U Dashboard
           </h2>
