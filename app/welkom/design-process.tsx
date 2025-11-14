@@ -2,7 +2,7 @@ import { AnalysisCamera, ClipBoard, Message, Pen } from "../components/icons";
 
 export default function DesignProcess() {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between mt-[120px]">
       <div className="max-w-[383px]">
         <div className="sticky top-0">
           <h2 className="text-[32px] text-[#1A1A1A] font-bold">
@@ -13,28 +13,28 @@ export default function DesignProcess() {
           </h3>
         </div>
       </div>
-      <div className="max-w-[628px] grid gap-8 text-[#556070]">
+      <div className="max-w-[628px] text-lg grid gap-12 text-[#556070]">
         <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
-          <div>
+          <div className="flex flex-col gap-2">
             <ClipBoard />
             <h2 className="text-[#2F80ED] font-medium text-[22px]">
               Synthesising the Problem
             </h2>
           </div>
-          <p>
+          <p className="">
             I created empathy maps to synthesise user feedback and identify key
             needs, including access to accommodation, job opportunities, and a
             sense of community and belonging.
           </p>
         </div>
         <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
-          <div>
+          <div className="flex flex-col gap-2">
             <Message />
             <h2 className="text-[#2F80ED] font-medium text-[22px]">
               Talking to Users
             </h2>
           </div>
-          <p>
+          <p className="">
             I interviewed 14 users who had recently migrated to Canada and other
             countries to understand their experiences, challenges, and key pain
             points during relocation.
@@ -42,7 +42,7 @@ export default function DesignProcess() {
         </div>
 
         <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
-          <div>
+          <div className="flex flex-col gap-2">
             <AnalysisCamera />
             <h2 className="text-[#2F80ED] font-medium text-[22px]">
               Analysing Discovery
@@ -56,7 +56,7 @@ export default function DesignProcess() {
         </div>
 
         <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
-          <div>
+          <div className="flex flex-col gap-2">
             <Pen />
             <h2 className="text-[#2F80ED] font-medium text-[22px]">
               Designing the Experience

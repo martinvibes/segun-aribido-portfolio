@@ -18,8 +18,8 @@ export function ArrowLeft() {
 export function ClipBoard() {
   return (
     <svg
-      width="30"
-      height="40"
+      width="48"
+      height="48"
       viewBox="0 0 43 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -37,8 +37,8 @@ export function ClipBoard() {
 export function Message() {
   return (
     <svg
-      width="30"
-      height="40"
+      width="48"
+      height="48"
       viewBox="0 0 44 44"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -56,8 +56,8 @@ export function Message() {
 export function AnalysisCamera() {
   return (
     <svg
-      width="30"
-      height="40"
+      width="48"
+      height="48"
       viewBox="0 0 44 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -75,8 +75,8 @@ export function AnalysisCamera() {
 export function Pen() {
   return (
     <svg
-      width="30"
-      height="40"
+      width="48"
+      height="48"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

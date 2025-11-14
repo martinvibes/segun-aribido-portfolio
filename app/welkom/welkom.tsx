@@ -9,12 +9,12 @@ export default function WelkomSection() {
           <h2 className="text-[32px] text-[#1A1A1A] font-bold">
             Welkom-U Dashboard
           </h2>
-          <h4 className="text-[#556070] text-[18px]">
+          <h4 className="text-[#556070] text-[18px] mb-4">
             Helping immigrants settle seamlessly, with the tools, guidance, and
-            community they need. www.welkom-u.ca
+            community they need.
           </h4>
           <Link
-            className="text-[#556070] font-medium"
+            className="text-[#556070] font-medium underline"
             href="https://www.welkom-u.ca/"
           >
             www.welkom-u.ca

@@ -4,40 +4,47 @@ import { ArrowLeft } from "./components/icons";
 export default function Footer() {
   return (
     <footer className="bg-[#F2F7FF]">
-      <div className=" mx-[120px] max-w-[1440px] py-14 border-b">
-        <div className="grid grid-cols-3 items-end">
-          <h2 className="text-black text-7xl font-medium">
-            Let’s <br /> work <br />
+      <div className="mx-[32px] md:mx-[60px] lg:mx-[80px] xl:mx-[120px] max-w-[1440px] py-8 sm:py-10 md:py-14 border-b">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 md:items-end">
+          <h2 className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium">
+            Let&apos;s <br /> work <br />
             together
           </h2>
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-4 sm:gap-6 md:gap-8">
             <ArrowLeft />
-            <h2 className="text-[#2F80ED]">aribidoolusegun@gmail.com</h2>
+            <h2 className="text-[#2F80ED] text-sm sm:text-base md:text-lg lg:text-xl break-all sm:break-normal">
+              aribidoolusegun@gmail.com
+            </h2>
           </div>
-          <h4 className="text-black text-base">
-            Do you have an interesting project? I’ll love to hear from you.
-            Reach out and let’s create something amazing together.
+          <h4 className="text-black text-sm sm:text-base md:text-base">
+            Do you have an interesting project? I&apos;ll love to hear from you.
+            Reach out and let&apos;s create something amazing together.
           </h4>
         </div>
-        <div className="flex justify-between border-t border-[#556070] mt-10 pt-4">
-          <h2 className="text-[#5A6474]">Copyright @ 2025 Olusegun Aribido</h2>
-          <ul className="text-black flex items-center gap-6">
+        <div className="flex flex-col sm:flex-row sm:justify-between border-t border-[#556070] mt-6 sm:mt-8 md:mt-10 pt-4 gap-4 sm:gap-0">
+          <h2 className="text-[#5A6474] text-xs sm:text-sm md:text-base">
+            Copyright @ 2025 Olusegun Aribido
+          </h2>
+          <ul className="text-black flex flex-wrap items-center gap-4 sm:gap-6">
             <li>
               <Link
-                className="border-b"
+                className="border-b text-xs sm:text-sm md:text-base"
                 href="https://www.linkedin.com/in/olusegun-aribido/"
               >
                 LinkedIn
               </Link>
             </li>
             <li>
-              <Link className="border-b" href="https://x.com/kadunaconnect">
+              <Link
+                className="border-b text-xs sm:text-sm md:text-base"
+                href="https://x.com/kadunaconnect"
+              >
                 Twitter
               </Link>
             </li>
             <li>
               <Link
-                className="border-b"
+                className="border-b text-xs sm:text-sm md:text-base"
                 href="https://medium.com/@olusegunaribido"
               >
                 Medium
@@ -45,7 +52,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                className="border-b"
+                className="border-b text-xs sm:text-sm md:text-base"
                 href="https://dribbble.com/segunaribido"
               >
                 Dribble
