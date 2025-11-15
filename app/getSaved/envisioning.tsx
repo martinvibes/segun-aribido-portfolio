@@ -144,18 +144,18 @@ export default function Envisioning() {
           alt="user flow"
         />
       </div>
-      <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start max-w-full box-border">
+      <div className="grid lg:grid-cols-2 lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start max-w-full box-border">
         <div className="w-full lg:w-[528px] xl:w-[572px] lg:shrink-0 max-w-full box-border min-w-0">
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Detailed Interface Screens for Language Selection
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-1 break-words">
             During onboarding, users are prompted to select their preferred app
             language, ensuring a personalized and accessible experience from the
             very first interaction. This language choice can be updated anytime
             through the settings for greater flexibility and inclusivity.
           </h4>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-1 break-words">
             The app offers two language options to cater to user needs:
           </h4>
           <ol className="text-[#556070] text-base sm:text-lg lg:text-[18px] list-disc list-inside mt-2 sm:mt-3 space-y-1 sm:space-y-2 break-words">
@@ -170,16 +170,15 @@ export default function Envisioning() {
               formal communication.
             </li>
           </ol>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-1 break-words">
             This multilingual approach enhances user experience, inclusivity,
             and engagement, making the app intuitive and culturally relevant.
           </h4>
         </div>
-        <Image
-          className="w-full lg:w-auto lg:max-w-[572px] h-auto shrink-0"
-          src={image8}
-          alt=""
-        />
+
+        <div className="w-full lg:w-auto lg:max-w-[572px]">
+          <Image className="max-w-[572px] mx-auto" src={image8} alt="" />
+        </div>
       </div>
     </section>
   );
