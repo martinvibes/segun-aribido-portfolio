@@ -65,18 +65,20 @@ tools, guidance, and community they need.`,
               className="mx-w-[376px] w-full bg-[#FFFFFF] rounded-lg"
             >
               <Image src={data.image} alt="" className="rounded-t-lg" />
-              <div className="py-5 px-7">
-                <h3 className="text-[#87909D] text-[13px]">
+              <div className="py-5 px-7 ">
+                <h3 className="text-[#87909D] font-normal font-helvetica400 text-[13px]">
                   {data.header.includes("Cubos") ? "UI DESIGN" : "UX/UI DESIGN"}
                 </h3>
-                <h2 className="text-[18px] text-[#1A1A1A] font-bold">
+                <h2 className="text-[18px] text-[#1A1A1A] font-bold font-helvetica">
                   {data.header}
                 </h2>
-                <h4 className="text-[#556070] text-[14px]">{data.text}</h4>
+                <h4 className="text-[#556070] text-[14px] font-helvetica400 font-normal">
+                  {data.text}
+                </h4>
                 <div className="mt-10 mb-2">
                   <Link
                     href={data.link}
-                    className="flex border border-[#132238] cursor-pointer items-center w-fit py-2 px-4 text-[#132238] gap-3 rounded-lg"
+                    className="flex border font-normal font-helvetica400 border-[#132238] cursor-pointer items-center w-fit py-2 px-4 text-[#132238] gap-3 rounded-lg"
                   >
                     <span>Case study</span>
                     <ArrowLeft size="24" />

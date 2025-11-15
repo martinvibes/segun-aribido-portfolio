@@ -15,12 +15,12 @@ export default function GetSaved() {
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               GetSave USSD
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] break-words font-helvetica400">
               Empowering your financial journey through smarter saving tools.
               https://getsave.io/
             </h4>
             <Link
-              className="text-[#556070] text-sm sm:text-base lg:text-lg font-medium underline break-all"
+              className="text-[#556070] font-helvetica400 text-sm sm:text-base lg:text-lg font-medium underline break-all"
               href="https://getsave.io/"
             >
               https://getsave.io/
@@ -32,7 +32,7 @@ export default function GetSaved() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Background & Goals
             </h2>
-            <p className="text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <p className="font-helvetica400 text-base sm:text-lg leading-6 sm:leading-7 break-words">
               SAVE was created from a deep passion to empower unbanked
               individuals who traditionally save in informal groups using
               physical cash boxes. The goal was to help them transition to a
@@ -44,7 +44,7 @@ export default function GetSaved() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               The key objectives were
             </h2>
-            <ol className="grid gap-2 sm:gap-2 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <ol className="grid gap-2 sm:gap-2 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               <li className="break-words">
                 Digitise the traditional group-saving process
               </li>
@@ -81,7 +81,7 @@ export default function GetSaved() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Challenges
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               <li className="break-words">
                 Understanding and empathising with users to uncover their real
                 saving habits and motivations
@@ -121,7 +121,7 @@ export default function GetSaved() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               My role & the team
             </h2>
-            <h3 className="text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <h3 className="text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               I collaborated closely with a Project Manager (who also served as
               an interpreter) and a team of five engineers to bring the project
               vision to life. Our strong cross-functional teamwork and clear
@@ -134,7 +134,7 @@ export default function GetSaved() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               My responsibilities were:
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               <li className="break-words">
                 Led the end-to-end product design process, from user research
                 and wireframing to high-fidelity prototyping and handoff

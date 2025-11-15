@@ -16,13 +16,13 @@ export default function Footer() {
               aribidoolusegun@gmail.com
             </h2>
           </div>
-          <h4 className="text-black text-sm sm:text-base md:text-base">
+          <h4 className="text-[#000000] font-bold text-sm sm:text-base md:text-base font-helvetica400 ">
             Do you have an interesting project? I&apos;ll love to hear from you.
             Reach out and let&apos;s create something amazing together.
           </h4>
         </div>
         <div className="flex flex-col sm:flex-row sm:justify-between border-t border-[#556070] mt-6 sm:mt-8 md:mt-10 pt-4 gap-4 sm:gap-0">
-          <h2 className="text-[#5A6474] text-xs sm:text-sm md:text-base">
+          <h2 className="text-[#5A6474] text-xs sm:text-sm md:text-base font-helvetica400">
             Copyright @ 2025 Olusegun Aribido
           </h2>
           <ul className="text-black flex flex-wrap items-center gap-4 sm:gap-6">

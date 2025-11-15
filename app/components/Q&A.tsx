@@ -4,10 +4,10 @@ export default function Question() {
       <div className="max-w-[383px]">
         <div className="sticky top-0">
           <h3 className="text-[#87909D]text-[13px]">UX/UI DESIGN</h3>
-          <h2 className="text-[32px] text-[#1A1A1A] font-bold">
+          <h2 className="text-[40px] font-helvetica text-[#505050] ">
             Got Questions
           </h2>
-          <h4 className="text-[#556070] text-[18px]">
+          <h4 className="text-[#556070] text-[24px] font-helvetica400 font-normal">
             What I Bring to the Table
           </h4>
         </div>
@@ -17,7 +17,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             What Kind of projects can I take on?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal  font-helvetica400">
             I work on digital products that improve everyday experiences, from
             apps and dashboards to design systems. Whether it’s a nonprofit tool
             or a startup MVP, I focus on clarity, usability, and craft.
@@ -27,7 +27,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             How do I kick off a new engagement?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             I like to begin every project with curiosity and empathy. We’ll
             start by uncovering the story behind your product, who it serves,
             why it matters, and what success looks like. From there, I translate
@@ -40,7 +40,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             Can I handle both UX and UI?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             Yes, I combine UX thinking with UI craft to design experiences that
             feel both intuitive and meaningful. I start by understanding the
             people behind the product, their goals, challenges, and motivations,
@@ -52,7 +52,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             How do I work with startups and scale-ups?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             I thrive in fast-moving environments. With startups, I help bring
             clarity to big ideas, shaping MVPs, simplifying user journeys, and
             building a visual identity that feels ready for market. For
@@ -65,7 +65,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             Do I bring enterprise-product experience to the table?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             Definitely. I’ve worked on large-scale digital products used across
             organizations, from admin dashboards and reporting tools to
             field-level mobile apps. I focus on creating systems that improve
@@ -78,7 +78,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             How do I partner with developers in delivery?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             I treat developers as design partners. I share prototypes early,
             discuss technical constraints, and document everything from
             components to motion specs. I’m comfortable working with Figma
@@ -91,7 +91,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             Am I open to freelance or contract work?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             Yes, I’m open to freelance and contract projects. I love joining
             teams that need hands-on design help, whether that’s refining a
             product, building a design system, or bringing an idea to life from
@@ -102,7 +102,7 @@ export default function Question() {
           <h2 className="text-[#1A1A1A] font-medium text-[24px]">
             What’s my approach to AI-enhanced design workflows?
           </h2>
-          <p className="text-[#505050] text-[24px] font-normal">
+          <p className="text-[#505050] text-[24px] font-normal font-helvetica400">
             I see AI as a creative partner, not a replacement. My approach is to
             use AI tools to accelerate exploration, generating variations,
             testing ideas, and refining content faster, while keeping the core

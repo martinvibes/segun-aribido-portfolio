@@ -3,7 +3,7 @@ export default function OpenSource() {
     <div className="my-28">
       <div className="text-[#505050] text-center mb-10">
         <h2 className="font-medium text-[40px]">Open Source Contributions</h2>
-        <h4 className="text-2xl font-normal">
+        <h4 className="text-2xl font-normal font-helvetica400">
           Giving back through community-driven design
         </h4>
       </div>

@@ -11,7 +11,7 @@ export default function LastPart() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Developer Handoff
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 font-normal mt-2 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 font-normal mt-2 break-words font-helvetica400">
             To conclude the project, I took the extra step of consolidating all
             design components into a structured design system. This provided
             consistency and made it easier for the development team to implement
@@ -56,7 +56,7 @@ export default function LastPart() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Learning & Achievement
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-5 mt-2 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-5 mt-2 break-words font-helvetica400">
             This has been one of the most exciting and meaningful projects
             I&apos;ve worked on. Prior to this, I had never designed a product
             specifically for people migrating from one country to another.
@@ -70,7 +70,6 @@ export default function LastPart() {
             magazine&apos;s 30 Under 30.
           </h4>
           <span className="text-[#556070] text-base sm:text-lg">
-            {" "}
             View the live project:{" "}
             <a href="www.welkom-u.ca" className="underline break-all">
               www.welkom-u.ca

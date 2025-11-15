@@ -16,7 +16,7 @@ export default function Envisioning() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Envisioning Future Experiences / Persona
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400 max-w-[628px]">
             I developed two detailed user personas to keep the design process
             user-centered and aligned with real customer needs. These personas
             helped the team empathize with users, understand their goals and
@@ -42,7 +42,7 @@ export default function Envisioning() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Designing Future User Experiences through Storyboarding
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400">
             My primary goal was to digitise the traditional group saving system
             and enhance transparency among members. Through a detailed
             storyboarding exercise, stakeholders were able to visualise each
@@ -63,7 +63,7 @@ export default function Envisioning() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Ideating and Envisioning Future User Experiences
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400">
             The storyboarding session played a crucial role in defining the
             problem space and aligning all stakeholders around a shared product
             vision. It provided a structured framework to map the user journey,
@@ -88,7 +88,7 @@ export default function Envisioning() {
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Envisioning Future User Experiences through User Flows
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400">
               This simplified user flow diagram illustrates how users navigate
               and interact with the product across key stages of their journey,
               highlighting critical touchpoints and decision moments that shape
@@ -105,7 +105,7 @@ export default function Envisioning() {
       <div className="grid gap-6 sm:gap-8 md:gap-10 lg:gap-12 max-w-full box-border">
         <div className="max-w-full box-border">
           <div className="max-w-full box-border">
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] break-words max-w-[783px] font-helvetica400">
               I created detailed, high-fidelity user flows to simulate a
               realistic product experience, enabling meaningful stakeholder
               feedback and supporting effective usability testing. This approach
@@ -123,10 +123,10 @@ export default function Envisioning() {
       <div className="grid gap-6 sm:gap-8 my-12 sm:my-16 md:my-20 max-w-full box-border">
         <div className="max-w-full box-border">
           <div className="max-w-full box-border">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words max-w-[705px]">
               Validating Ideas: From Abstract Concepts to Visual Design
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words max-w-[783px] font-helvetica400">
               I designed comprehensive, detailed user flows to deliver a
               realistic and interactive user experience, fostering valuable
               stakeholder feedback and facilitating data-driven usability
@@ -149,28 +149,29 @@ export default function Envisioning() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Detailed Interface Screens for Language Selection
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400">
             During onboarding, users are prompted to select their preferred app
             language, ensuring a personalized and accessible experience from the
             very first interaction. This language choice can be updated anytime
             through the settings for greater flexibility and inclusivity.
           </h4>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words font-helvetica400">
             The app offers two language options to cater to user needs:
           </h4>
-          <ol className="text-[#556070] text-base sm:text-lg lg:text-[18px] list-disc list-inside mt-2 sm:mt-3 space-y-1 sm:space-y-2 break-words">
+          <ol className="text-[#556070] text-base sm:text-lg lg:text-[18px] list-disc list-inside mt-2 sm:mt-3 space-y-1 sm:space-y-2 break-words font-helvetica400">
             <li className="break-words">
-              Kinyarwanda – Set as the default language, since over 90% of our
-              target users speak and read it. It reflects the local culture and
-              ensures accessibility for the majority.
+              <strong className="font-helvetica">Kinyarwanda –</strong> Set as
+              the default language, since over 90% of our target users speak and
+              read it. It reflects the local culture and ensures accessibility
+              for the majority.
             </li>
             <li className="break-words">
-              English – Provided as a secondary option, as it is the official
-              language of Rwanda and commonly used in education, business, and
-              formal communication.
+              <strong className="font-helvetica">English – </strong>Provided as
+              a secondary option, as it is the official language of Rwanda and
+              commonly used in education, business, and formal communication.
             </li>
           </ol>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words">
+          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-4 sm:mt-5 break-words font-helvetica400">
             This multilingual approach enhances user experience, inclusivity,
             and engagement, making the app intuitive and culturally relevant.
           </h4>

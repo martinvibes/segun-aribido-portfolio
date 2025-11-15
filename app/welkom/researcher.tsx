@@ -3,17 +3,17 @@ export default function Researcher() {
     <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-8 sm:mt-12 md:mt-16 lg:mt-[120px] max-w-full box-border">
       <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
         <div className="lg:sticky lg:top-[100px]">
-          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
             Research
           </h2>
-          <p className="text-[#556070] text-base sm:text-lg font-medium mt-2 break-words">
+          <p className="text-[#556070] text-base sm:text-lg font-medium mt-2 break-words font-helvetica400">
             I interviewed 14 newcomers to Canada and the UK to uncover needs,
             fears, and barriers.
           </p>
         </div>
       </div>
       <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-4 sm:gap-6 lg:gap-7 text-[#556070] max-w-full box-border min-w-0">
-        <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+        <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
           What the users are saying
         </h2>
         <aside className="grid grid-cols-1 sm:grid-cols-[1fr_1.1fr] gap-4 sm:gap-6 text-[#000000] max-w-full box-border">
@@ -22,7 +22,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;Getting accommodation at in my new location&quot;
@@ -33,7 +33,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center h-full items-center px-3 sm:px-4 py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;Will like to know about the weather in my new
@@ -45,7 +45,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;I want to know about currency and exchange rate to my
@@ -57,7 +57,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;Have a general knowledge about the language&quot;
@@ -70,7 +70,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;I wish to know about the culture of the people in my new
@@ -82,7 +82,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;How to secure job or admission in the country&quot;
@@ -93,7 +93,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;I like to know how to connect with people within my
@@ -105,7 +105,7 @@ export default function Researcher() {
               <div className="bg-[#EBE000] w-full h-[19px]" />
               <div className="flex justify-center items-center px-3 sm:px-4 h-full py-2">
                 <p
-                  className="text-base sm:text-lg lg:text-[20.83px] text-center break-words"
+                  className="text-base sm:text-lg lg:text-[20.83px] text-center wrap-break-word"
                   style={{ fontStyle: "italic" }}
                 >
                   &quot;I will like to know where to shop for items they

@@ -8,7 +8,7 @@ import "./globals.css";
 import Footer from "./footer";
 import localFont from "next/font/local";
 import Nav from "./components/nav";
-// import l from "../public/font/m"
+
 const shadowsIntoLight = Shadows_Into_Light({
   variable: "--font-shadows-into-light",
   subsets: ["latin", "latin-ext"],

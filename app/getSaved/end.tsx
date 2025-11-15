@@ -16,7 +16,7 @@ export default function End() {
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Validating Our Ideas through Usability Testing
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 sm:mt-3 break-words font-helvetica400">
               I conducted usability testing sessions with three participants to
               evaluate task success rates, capture authentic user reactions, and
               gather actionable feedback on the overall user experience and
@@ -72,7 +72,7 @@ export default function End() {
               per session
             </h3>
           </div>
-          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words font-helvetica400">
             Based on the usability testing results, I moved forward with
             confidence to release a beta version of the product to a small group
             of users in Rwanda&apos;s Eastern Province. Anticipating potential
@@ -90,7 +90,7 @@ export default function End() {
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Beta Launch
             </h2>
-            <h4 className="text-[#556070] mb-3 text-base sm:text-lg lg:text-[18px] break-words">
+            <h4 className="text-[#556070] mb-3 text-base sm:text-lg lg:text-[18px] break-words font-helvetica400">
               Testing the Product in the Real World
             </h4>
             <Image src={group} alt="user" className="w-full h-auto" />
@@ -101,7 +101,7 @@ export default function End() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Key Challenges Identified:
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc ml-4 sm:ml-5 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc ml-4 sm:ml-5 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               <li className="break-words">
                 Some users did not receive a verification PIN during the account
                 creation process, which affected onboarding and account
@@ -120,7 +120,7 @@ export default function End() {
             <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Solutions and Feature Enhancements
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc ml-4 sm:ml-5 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc ml-4 sm:ml-5 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
               <li className="break-words">
                 Simplified onboarding experience: Removed the OTP (One-Time
                 Password) requirement for PIN setup, allowing users to create
@@ -147,7 +147,7 @@ export default function End() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Learning & Achievement
           </h2>
-          <p className="text-[#556070] text-base sm:text-lg font-medium leading-6 sm:leading-7 mt-2 sm:mt-3 break-words">
+          <p className="text-[#556070] text-base sm:text-lg font-medium leading-6 sm:leading-7 mt-2 sm:mt-3 break-words font-helvetica400">
             So far, the project has been a remarkable success story. In less
             than two years, SAVE has processed over 300,000,000 RWF
             (approximately $300,000 USD) in transactions, demonstrating strong

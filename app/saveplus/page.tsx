@@ -24,7 +24,7 @@ const SavePlus = () => {
           <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold">
             SavePlus
           </h1>
-          <p className="text-[#556070] text-base sm:text-lg font-normal py-2">
+          <p className="text-[#556070] text-base sm:text-lg font-normal font-helvetica400 py-2">
             Helping change makers raise funds, share stories, and inspire
             action.
           </p>

@@ -9,7 +9,6 @@ import wirefreame from "../../public/Wireframe white 1.svg";
 import group from "../../public/Group 19302.svg";
 import frame1 from "../../public/Frame 3233040.svg";
 import frame2 from "../../public/Frame 3233041.svg";
-import coin from "../../public/coin 1.svg";
 import exchange from "../../public/Currency.svg";
 import frame3 from "../../public/Current design.svg";
 import frame4 from "../../public/Desktop - 2.svg";
@@ -40,10 +39,10 @@ export default function Page() {
       <section className="grid gap-4 sm:gap-6 md:gap-8 max-w-full box-border">
         <div className="w-full lg:max-w-[383px] max-w-full box-border">
           <div className="">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               User Flow
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 wrap-break-word font-helvetica400">
               This user flow reflects the thinking and decisions made during the
               design process.
             </h4>
@@ -62,10 +61,10 @@ export default function Page() {
       <section className="grid gap-4 sm:gap-6 md:gap-8 max-w-full box-border">
         <div className="w-full lg:max-w-[383px] max-w-full box-border">
           <div className="">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               Wireframes
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 wrap-break-word font-helvetica400">
               I created initial sketches to explore and visualise design ideas.
             </h4>
           </div>
@@ -83,10 +82,10 @@ export default function Page() {
       <section className="grid gap-4 sm:gap-6 md:gap-8 relative max-w-full box-border">
         <div className="w-full lg:max-w-[572px] max-w-full box-border">
           <div className="">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               Design Iteration
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 wrap-break-word font-helvetica400">
               I tested several iterations of the homepage to ensure users could
               quickly find the information they need to make informed decisions,
               while also improving the visual appeal of the content feed.
@@ -103,13 +102,13 @@ export default function Page() {
       </section>
 
       {/* Feedbacks & Fixes */}
-      <section className="grid gap-4 sm:gap-6 md:gap-8 mt-8 sm:mt-12 md:mt-16 lg:mt-[80px] max-w-full box-border">
+      <section className="grid gap-4 sm:gap-6 md:gap-8 mt-8 sm:mt-12 md:mt-16 lg:mt-20 max-w-full box-border">
         <div className="w-full lg:max-w-[572px] max-w-full box-border">
           <div className="">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               Feedbacks & Fixes
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 break-words">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] font-normal mt-2 wrap-break-word font-helvetica400">
               Based on testing and feedback, I identified the need to improve
               the search functionality, refine the card layout and arrangement,
               adjust the scroll icon, and enhance the side navigation for better
@@ -119,13 +118,13 @@ export default function Page() {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-14 mt-6 sm:mt-8 md:mt-12 lg:mt-[77px] max-w-full box-border">
           <div className="grid gap-4 sm:gap-6 lg:gap-7 w-full">
-            <h2 className="text-xl sm:text-[22px] text-[#2F80ED] break-words">
+            <h2 className="text-xl sm:text-[22px] text-[#2F80ED] wrap-break-word">
               Previous Iteration
             </h2>
             <Image src={frame1} alt="frame" className="w-full h-auto" />
           </div>
           <div className="grid gap-4 sm:gap-6 lg:gap-7 w-full">
-            <h2 className="text-xl sm:text-[22px] text-[#2F80ED] break-words">
+            <h2 className="text-xl sm:text-[22px] text-[#2F80ED] wrap-break-word">
               Current Iteration
             </h2>
             <Image src={frame2} alt="frame" className="w-full h-auto" />
@@ -149,12 +148,12 @@ export default function Page() {
             <div className="w-full lg:w-[360px] max-w-full box-border">
               <Image src={feedback1} alt="frame" className="w-full h-auto" />
             </div>
-            <ol className="list-disc text-base sm:text-lg font-normal w-full lg:w-[341px] list-inside text-[#636161] space-y-1 sm:space-y-2 break-words">
-              <li className="break-words">
+            <ol className="list-disc text-base sm:text-lg font-normal w-full lg:w-[341px] list-inside text-[#636161] space-y-1 sm:space-y-2 wrap-break-word font-helvetica400">
+              <li className="wrap-break-word">
                 Most users didn&apos;t realise{" "}
                 <br className="hidden sm:block" /> the cards were clickable.
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 I also found that the cards contained too much information, all
                 crowded in the same area, which made them harder to scan and
                 engage with.
@@ -164,14 +163,14 @@ export default function Page() {
 
           <div className="grid gap-3 w-full lg:w-[517px] text-[#636161] max-w-full box-border min-w-0">
             <Image src={exchange} alt="frame" className="w-full h-auto" />
-            <ol className="list-disc list-inside space-y-1 sm:space-y-2 text-base sm:text-lg break-words">
-              <li className="break-words">
+            <ol className="list-disc list-inside space-y-1 sm:space-y-2 text-base sm:text-lg wrap-break-word font-helvetica400">
+              <li className="wrap-break-word">
                 I kept the same width and icon as the previous card but
                 increased the height to create better visual balance. This
                 adjustment allowed for improved icon placement and added subtle
                 background patterns for a more polished look.
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 I positioned the text next to the call-to-action (CTA) to make
                 it clear to users that it is interactive and clickable.
               </li>
