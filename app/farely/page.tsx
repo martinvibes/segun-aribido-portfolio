@@ -35,17 +35,17 @@ const Farely = () => {
                 </h3>
               )}
               {section.leftTitle && (
-                <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words">
+                <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
                   {section.leftTitle}
                 </h2>
               )}
               {section.leftSubtitle && (
-                <p className="text-[#556070] text-base sm:text-lg font-normal py-2 break-words">
+                <p className="text-[#556070] text-base sm:text-lg font-normal py-2 wrap-break-word font-helvetica400">
                   {section.leftSubtitle}
                 </p>
               )}
               {section.leftDescription && (
-                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 break-words">
+                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 wrap-break-word">
                   {section.leftDescription}
                 </p>
               )}
@@ -56,12 +56,12 @@ const Farely = () => {
               <h2
                 className={`text-[#2F80ED] text-xl sm:text-[22px] font-medium ${
                   index === 0 ? "pt-0 lg:pt-[17px]" : ""
-                } mb-2 break-words`}
+                } mb-2 wrap-break-word`}
               >
                 {section.rightHeading}
               </h2>
               {section.rightDescription && (
-                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
                   {section.rightDescription
                     .split("\n")
                     .map((paragraph, idx) => (
@@ -72,16 +72,16 @@ const Farely = () => {
                 </div>
               )}
               {section.rightBullets && (
-                <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 break-words">
+                <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 wrap-break-word font-helvetica400">
                   {section.rightBullets.map((bullet, idx) => (
-                    <li key={idx} className="break-words">
+                    <li key={idx} className="wrap-break-word">
                       {bullet}
                     </li>
                   ))}
                 </ul>
               )}
               {section.rightConclusion && (
-                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 break-words">
+                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 wrap-break-word font-helvetica400">
                   {section.rightConclusion}
                 </p>
               )}
@@ -98,14 +98,14 @@ const Farely = () => {
           </h2>
         </div>
 
-        <div className="w-full lg:w-[628px] lg:shrink-0 box-border max-w-full">
+        <div className="w-full lg:w-[628px] lg:shrink-0 box-border max-w-full font-helvetica400">
           {userPersonasSection.rightIntro && (
-            <p className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mb-2 leading-6 sm:leading-7 break-words">
+            <p className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mb-2 leading-6 sm:leading-7 wrap-break-word">
               {userPersonasSection.rightIntro}
             </p>
           )}
           {userPersonasSection.rightDescription && (
-            <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mb-4 sm:mb-6 break-words">
+            <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mb-4 sm:mb-6 wrap-break-word">
               {userPersonasSection.rightDescription}
             </p>
           )}
@@ -123,8 +123,8 @@ const Farely = () => {
                   height={56}
                   className="w-12 h-12 sm:w-14 sm:h-14 lg:w-[56px] lg:h-[56px] shrink-0"
                 />
-                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 flex-1 min-w-0 break-words box-border">
-                  <span className="text-base sm:text-lg tracking-[0.8%] font-bold text-[#556070]">
+                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 flex-1 min-w-0 wrap-break-word box-border">
+                  <span className="text-base sm:text-lg tracking-[0.8%] font-bold text-[#556070] font-helvetica">
                     {persona.title} -{" "}
                   </span>
                   {persona.description}
@@ -149,12 +149,12 @@ const Farely = () => {
               key={idx}
               className="mt-2 lg:mt-[10px] w-full box-border max-w-full"
             >
-              <h3 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mb-2 break-words">
+              <h3 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mb-2 wrap-break-word">
                 {item.number}. {item.title}
               </h3>
-              <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-7 break-words">
+              <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-7 wrap-break-word font-helvetica400">
                 {item.bullets.map((bullet, bulletIdx) => (
-                  <li key={bulletIdx} className="break-words">
+                  <li key={bulletIdx} className="wrap-break-word">
                     {bullet}
                   </li>
                 ))}
@@ -219,7 +219,7 @@ const Farely = () => {
           </h2>
         </div>
 
-        <div className="w-[628px] shrink-0">
+        <div className="w-[628px] shrink-0 font-helvetica400">
           <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-lg leading-7 pl-6">
             {outcomeSection.bullets.map((bullet, idx) => (
               <li key={idx}>{bullet}</li>
@@ -241,7 +241,7 @@ const Farely = () => {
           </h2>
         </div>
 
-        <div className="w-[628px] shrink-0">
+        <div className="w-[628px] shrink-0 font-helvetica400">
           <p className="text-[#556070] text-lg font-normal leading-7">
             {reflectionSection.description}
           </p>

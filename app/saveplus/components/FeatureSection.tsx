@@ -19,19 +19,19 @@ export default function FeatureSection() {
 
             {item.features ? (
               <>
-                <ul className="list-disc space-y-1 mt-2.5 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-7 pl-5 sm:pl-6">
+                <ul className="list-disc space-y-1 mt-2.5 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-7 pl-5 sm:pl-6 font-helvetica400">
                   {item.features.map((feature, idx) => (
                     <li key={idx}>{feature}</li>
                   ))}
                 </ul>
                 {item.conclusion && (
-                  <p className="text-[#556070] text-base sm:text-lg leading-7 mt-4">
+                  <p className="text-[#556070] text-base sm:text-lg leading-7 mt-4 font-helvetica400">
                     {item.conclusion}
                   </p>
                 )}
               </>
             ) : (
-              <div className="text-[#556070] text-base sm:text-lg leading-7 mt-2">
+              <div className="text-[#556070] text-base sm:text-lg leading-7 mt-2 font-helvetica400">
                 {item.description.split("\n").map((paragraph, idx) => (
                   <p key={idx} className={idx > 0 ? "mt-4" : ""}>
                     {paragraph}

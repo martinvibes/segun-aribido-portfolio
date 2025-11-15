@@ -29,21 +29,21 @@ export const CoupvouchPage = () => {
             {section.leftTitle ? (
               <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
                 {index === 0 && (
-                  <h3 className="text-[#87909D] text-xs font-medium mb-1">
+                  <h3 className="font-helvetica400 text-[#87909D] text-xs font-medium mb-1">
                     UX/UI DESIGN
                   </h3>
                 )}
                 <h2
                   className={
                     index === 0
-                      ? "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words"
-                      : "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words"
+                      ? "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word"
+                      : "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word"
                   }
                 >
                   {section.leftTitle}
                 </h2>
                 {section.leftSubtitle && (
-                  <p className="text-[#556070] text-base sm:text-lg font-normal py-1 break-words">
+                  <p className="text-[#556070] text-base sm:text-lg font-normal py-1 wrap-break-word font-helvetica400">
                     {section.leftSubtitle}
                   </p>
                 )}
@@ -52,13 +52,13 @@ export const CoupvouchPage = () => {
                     href="https://www.couponvouch.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#556070] text-sm sm:text-base lg:text-lg underline break-all"
+                    className="text-[#556070] text-sm sm:text-base lg:text-lg underline break-all font-helvetica400"
                   >
                     www.couponvouch.com
                   </a>
                 )}
                 {section.leftDescription && (
-                  <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 break-words">
+                  <p className="text-[#556070] font-helvetica400 text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 wrap-break-word">
                     {section.leftDescription}
                   </p>
                 )}
@@ -83,12 +83,12 @@ export const CoupvouchPage = () => {
               <h2
                 className={`text-[#2F80ED] text-xl sm:text-[22px] font-medium ${
                   index === 0 ? "pt-0 lg:pt-[17px]" : ""
-                } mb-1.5 break-words`}
+                } mb-1.5 wrap-break-word`}
               >
                 {section.rightHeading}
               </h2>
               {section.rightDescription && (
-                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
                   {section.rightDescription
                     .split("\n")
                     .map((paragraph, idx) => (
@@ -101,14 +101,14 @@ export const CoupvouchPage = () => {
 
               {section.rightBullets && (
                 <ul
-                  className={`list-disc ${
+                  className={`list-disc font-helvetica400 ${
                     section.rightHeading == "User Interviews"
                       ? "space-y-2 sm:space-y-4 pt-2 sm:pt-4"
                       : "space-y-0.5"
-                  } tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 break-words`}
+                  } tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 wrap-break-word`}
                 >
                   {section.rightBullets.map((bullet, idx) => (
-                    <li key={idx} className="break-words">
+                    <li key={idx} className="wrap-break-word">
                       {bullet}
                     </li>
                   ))}
@@ -116,25 +116,25 @@ export const CoupvouchPage = () => {
               )}
 
               {section.rightConclusion && (
-                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 break-words">
+                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 wrap-break-word font-helvetica400">
                   {section.rightConclusion}
                 </p>
               )}
 
               {section.rightHeading2 && (
-                <h2 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mt-6 sm:mt-8 mb-2 break-words">
+                <h2 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mt-6 sm:mt-8 mb-2 wrap-break-word">
                   {section.rightHeading2}
                 </h2>
               )}
               {section.rightDescription2 && (
-                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+                <div className="font-helvetica400 text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word">
                   {section.rightDescription2}
                 </div>
               )}
               {section.rightBullets2 && (
-                <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 break-words">
+                <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 wrap-break-word font-helvetica400">
                   {section.rightBullets2.map((bullet, idx) => (
-                    <li key={idx} className="break-words">
+                    <li key={idx} className="wrap-break-word">
                       {bullet}
                     </li>
                   ))}
@@ -234,15 +234,15 @@ export const CoupvouchPage = () => {
       {/* Outcome */}
       <div className="flex flex-col gap-2 items-start mt-12 sm:mt-16 md:mt-20 lg:mt-[88px]">
         <div className="w-full lg:w-[383px] lg:shrink-0 max-w-full box-border">
-          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words">
+          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
             {outcomeSection.leftTitle}
           </h2>
         </div>
 
-        <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 max-w-full box-border min-w-0">
-          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-7 break-words">
+        <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 max-w-full box-border min-w-0 font-helvetica400">
+          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-7 wrap-break-word">
             {outcomeSection.bullets.map((bullet, idx) => (
-              <li key={idx} className="break-words">
+              <li key={idx} className="wrap-break-word">
                 {bullet}
               </li>
             ))}
@@ -253,21 +253,21 @@ export const CoupvouchPage = () => {
       {/* Reflection & Learnings */}
       <div className="flex flex-col gap-2 items-start mt-12 sm:mt-16 md:mt-20 lg:mt-[88px] mb-12 sm:mb-16 md:mb-24 lg:mb-[120px]">
         <div className="w-full lg:w-[383px] lg:shrink-0 max-w-full box-border">
-          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words">
+          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
             {reflectionSection.leftTitle}
           </h2>
         </div>
 
-        <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 max-w-full box-border min-w-0">
-          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-7 break-words">
+        <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 max-w-full box-border min-w-0 font-helvetica400">
+          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-7 wrap-break-word">
             {reflectionSection.bullets.map((bullet, idx) => (
-              <li key={idx} className="break-words">
+              <li key={idx} className="wrap-break-word">
                 {bullet}
               </li>
             ))}
           </ul>
           {reflectionSection.link && (
-            <p className="mt-4 text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+            <p className="mt-4 text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word">
               {reflectionSection.link.text}{" "}
               <a
                 href={reflectionSection.link.url}

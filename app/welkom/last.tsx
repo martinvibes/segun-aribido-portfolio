@@ -8,10 +8,10 @@ export default function LastPart() {
     <section className="max-w-full box-border">
       <div className="w-full lg:max-w-[575px] mt-8 sm:mt-12 md:mt-16 lg:mt-[88px] mb-6 sm:mb-8 md:mb-10 max-w-full box-border">
         <div className="">
-          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
             Developer Handoff
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 font-normal mt-2 break-words font-helvetica400">
+          <h4 className="text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 font-normal mt-2 wrap-break-word font-helvetica400">
             To conclude the project, I took the extra step of consolidating all
             design components into a structured design system. This provided
             consistency and made it easier for the development team to implement
@@ -53,10 +53,10 @@ export default function LastPart() {
 
       <div className="pb-12 sm:pb-16 md:pb-20 mt-8 sm:mt-10 md:mt-12 w-full lg:max-w-[575px] max-w-full box-border">
         <div className="">
-          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
             Learning & Achievement
           </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-5 mt-2 break-words font-helvetica400">
+          <h4 className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-5 mt-2 wrap-break-word font-helvetica400">
             This has been one of the most exciting and meaningful projects
             I&apos;ve worked on. Prior to this, I had never designed a product
             specifically for people migrating from one country to another.
@@ -69,7 +69,7 @@ export default function LastPart() {
             Welkom-U&apos;s CEO was named one of Atlantic Business
             magazine&apos;s 30 Under 30.
           </h4>
-          <span className="text-[#556070] text-base sm:text-lg">
+          <span className="text-[#556070] text-base sm:text-lg font-helvetica400">
             View the live project:{" "}
             <a href="www.welkom-u.ca" className="underline break-all">
               www.welkom-u.ca

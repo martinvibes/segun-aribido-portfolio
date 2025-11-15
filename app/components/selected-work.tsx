@@ -55,10 +55,10 @@ tools, guidance, and community they need.`,
       className="scroll-smooth lg:top-[150px] lg:self-start max-w-full box-border"
     >
       <div className="text-[#505050] text-center mb-6 sm:mb-8 md:mb-10 px-4 sm:px-6 md:px-8">
-        <h2 className="font-medium text-2xl sm:text-3xl md:text-4xl lg:text-[40px] break-words">
+        <h2 className="font-medium text-2xl sm:text-3xl md:text-4xl lg:text-[40px] wrap-break-word">
           Selected Work
         </h2>
-        <h4 className="text-lg sm:text-xl md:text-2xl font-normal mt-2 break-words">
+        <h4 className="text-lg sm:text-xl md:text-2xl font-normal mt-2 wrap-break-word">
           Proof of impact, stories behind the pixels.
         </h4>
       </div>
@@ -75,13 +75,13 @@ tools, guidance, and community they need.`,
                 className="rounded-t-lg w-full h-auto"
               />
               <div className="py-4 sm:py-5 px-4 sm:px-6 md:px-7">
-                <h3 className="text-[#87909D] text-xs sm:text-[13px]">
+                <h3 className="text-[#87909D] text-xs sm:text-[13px] font-helvetica400">
                   {data.header.includes("Cubos") ? "UI DESIGN" : "UX/UI DESIGN"}
                 </h3>
-                <h2 className="text-base sm:text-lg lg:text-[18px] text-[#1A1A1A] font-bold mt-1 break-words font-helvetica">
+                <h2 className="text-base sm:text-lg lg:text-[18px] text-[#1A1A1A] font-bold mt-1 wrap-break-word font-helvetica">
                   {data.header}
                 </h2>
-                <h4 className="text-[#556070] text-sm sm:text-[14px] mt-1 break-words">
+                <h4 className="text-[#556070] text-sm sm:text-[14px] mt-1 wrap-break-word font-helvetica400">
                   {data.text}
                 </h4>
                 <div className="mt-6 sm:mt-8 md:mt-10 mb-2">

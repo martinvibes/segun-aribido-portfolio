@@ -19,7 +19,7 @@ export default function Challenges() {
 
       <div className="w-full lg:w-[528px] xl:w-[573px] lg:shrink-0 grid gap-6 sm:gap-8 md:gap-10 lg:gap-12 text-[#556070] max-w-full box-border min-w-0">
         <div className="flex flex-col gap-4 sm:gap-6 max-w-full box-border">
-          <h2 className="text-[#556070] font-normal text-sm sm:text-base wrap-break-word">
+          <h2 className="text-[#556070] font-normal text-sm sm:text-base wrap-break-word font-helvetica400">
             UX Collective Article
             <Link
               className="border-b border-[#556070] break-all font-helvetica400"
@@ -63,7 +63,7 @@ export default function Challenges() {
           </div>
         </div>
         <div className="flex flex-col gap-4 sm:gap-6 max-w-full box-border">
-          <h2 className="text-[#556070] font-normal text-base sm:text-lg wrap-break-word">
+          <h2 className="text-[#556070] font-normal text-base sm:text-lg wrap-break-word font-helvetica400">
             UX Magazine
             <Link
               className="ml-1 sm:ml-2 border-b border-[#556070] break-all font-helvetica400"

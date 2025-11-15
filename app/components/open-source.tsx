@@ -2,10 +2,10 @@ export default function OpenSource() {
   return (
     <div className="my-12 sm:my-16 md:my-20 lg:my-28 max-w-full box-border">
       <div className="text-[#505050] text-center mb-6 sm:mb-8 md:mb-10">
-        <h2 className="font-medium text-2xl sm:text-3xl md:text-4xl lg:text-[40px] break-words">
+        <h2 className="font-medium text-2xl sm:text-3xl md:text-4xl lg:text-[40px] wrap-break-word">
           Open Source Contributions
         </h2>
-        <h4 className="text-lg sm:text-xl md:text-2xl font-normal mt-2 break-words font-helvetica400">
+        <h4 className="text-lg sm:text-xl md:text-2xl font-normal mt-2 wrap-break-word font-helvetica400">
           Giving back through community-driven design
         </h4>
       </div>

@@ -26,10 +26,10 @@ export function DesignPhilosophy() {
       />
       <div className="mx-0 md:mx-12 lg:mx-24 flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-7 max-w-full box-border">
         <div className="max-w-full lg:max-w-[821px]">
-          <h2 className="text-[32px] lg:text-[40px] font-medium text-[#505050] break-words">
+          <h2 className="text-[32px] lg:text-[40px] font-medium text-[#505050] wrap-break-word">
             My Design Philosophy{" "}
           </h2>
-          <h3 className="text-[#505050] text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-helvetica400 mt-2 break-words">
+          <h3 className="text-[#505050] text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-helvetica400 mt-2 wrap-break-word">
             I design with logic, empathy, and intent to create digital
             experiences that are functional, scalable, and human-centered. Great
             design, to me, blends clarity with craft, it solves real problems
@@ -58,10 +58,10 @@ export function DesignPhilosophy() {
                 </div>
 
                 <div className="mt-4 sm:mt-6">
-                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] break-words">
+                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
                     Human-centered, Always
                   </h2>
-                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 break-words">
+                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
                     I start with people, their needs, stories, and frustrations
                     to design solutions that feel natural and inclusive.
                   </h3>
@@ -89,10 +89,10 @@ export function DesignPhilosophy() {
                 </div>
 
                 <div className="mt-4 sm:mt-6">
-                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] break-words">
+                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
                     Clarity Through Simplicity
                   </h2>
-                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 break-words">
+                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
                     I remove unnecessary friction. Every interaction should feel
                     intuitive, purposeful, and easy to understand.
                   </h3>
@@ -121,10 +121,10 @@ export function DesignPhilosophy() {
 
                 <div></div>
                 <div className="mt-4 sm:mt-6">
-                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] break-words">
+                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
                     Collaboration Fuels Innovation
                   </h2>
-                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 break-words">
+                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
                     I thrive in cross-functional teams, working closely with
                     stakeholders to turn insights into tangible outcomes.
                   </h3>
@@ -151,10 +151,10 @@ export function DesignPhilosophy() {
                 </div>
                 <span></span>
                 <div className="mt-4 sm:mt-6">
-                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] break-words">
+                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
                     Human-centered, Always
                   </h2>
-                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 break-words">
+                  <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
                     I start with people, their needs, stories, and frustrations
                     to design solutions that feel natural and inclusive.
                   </h3>

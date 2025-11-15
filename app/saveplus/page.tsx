@@ -28,7 +28,7 @@ const SavePlus = () => {
             Helping change makers raise funds, share stories, and inspire
             action.
           </p>
-          <div className="flex flex-col font-normal gap-1">
+          <div className="flex flex-col font-normal gap-1 font-helvetica400">
             <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
@@ -51,7 +51,7 @@ const SavePlus = () => {
             Project Overview
           </h1>
 
-          <article className="text-[#556070] text-base sm:text-lg font-normal leading-7">
+          <article className="text-[#556070] text-base sm:text-lg font-normal leading-7 font-helvetica400">
             Helping one person may not change the entire world, but it can
             transform their world. <br className="hidden sm:block" /> In East
             Africa, raising funds for personal, medical, or community needs
@@ -79,7 +79,7 @@ const SavePlus = () => {
           <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-1">
             Design Process
           </h1>
-          <p className="text-[#556070] text-base sm:text-lg font-normal">
+          <p className="text-[#556070] text-base sm:text-lg font-normal font-helvetica400">
             ~6 Weeks to Idea Validation
           </p>
         </div>
@@ -101,7 +101,7 @@ const SavePlus = () => {
                 <h2 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mb-3">
                   {item.title}
                 </h2>
-                <p className="text-[#556070] text-base sm:text-lg font-normal leading-7">
+                <p className="text-[#556070] text-base sm:text-lg font-normal leading-7 font-helvetica400">
                   {item.description}
                 </p>
               </div>
@@ -117,7 +117,7 @@ const SavePlus = () => {
             Research
           </h1>
 
-          <div className="text-[#556070] w-full lg:w-[437px] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7">
+          <div className="font-helvetica400 text-[#556070] w-full lg:w-[437px] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7">
             I conducted user interviews with four individuals who had previously
             raised funds and two others planning to start fundraising campaigns.
             These remote phone interviews aimed to uncover the key challenges
@@ -135,7 +135,7 @@ const SavePlus = () => {
             <h2 className="text-[#2F80ED] text-lg sm:text-xl md:text-[22px] font-medium mb-2 sm:mb-3">
               Findings
             </h2>
-            <p className="text-[#556070] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7">
+            <p className="text-[#556070] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7 font-helvetica400">
               Through this research, I identified three primary user groups
               commonly involved in the fundraising journey:
             </p>
@@ -157,8 +157,8 @@ const SavePlus = () => {
                   />
 
                   <div className="flex-1 min-w-0">
-                    <div className="text-[#556070] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7">
-                      <span className="text-sm sm:text-base md:text-lg font-bold text-[#556070]">
+                    <div className="text-[#556070] text-sm sm:text-base md:text-lg font-normal leading-6 sm:leading-7 font-helvetica400">
+                      <span className="text-sm sm:text-base md:text-lg font-bold text-[#556070] font-helvetica">
                         {item.title} -{" "}
                       </span>
                       {item.description}
@@ -180,7 +180,7 @@ const SavePlus = () => {
           Landscape in East Africa
         </h2>
 
-        <div className="text-base sm:text-lg font-normal mt-2 leading-7 text-[#556070]">
+        <div className="text-base sm:text-lg font-normal mt-2 leading-7 text-[#556070] font-helvetica400">
           <p className="mb-4">
             To gain a deeper understanding of how users create fundraising
             campaigns, donate to causes, and access raised funds, I conducted a
@@ -204,7 +204,7 @@ const SavePlus = () => {
           <h1 className="text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#1A1A1A]">
             Sketches
           </h1>
-          <p className="text-base sm:text-lg font-normal mt-2 leading-[26px] text-[#556070]">
+          <p className="text-base font-helvetica400 sm:text-lg font-normal mt-2 leading-[26px] text-[#556070]">
             To visualize and refine the product experience, I designed and
             tested multiple wireframe variations to explore different layout
             structures, navigation patterns, and interaction flows. This

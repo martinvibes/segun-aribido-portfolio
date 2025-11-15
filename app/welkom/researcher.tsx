@@ -6,7 +6,7 @@ export default function Researcher() {
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
             Research
           </h2>
-          <p className="text-[#556070] text-base sm:text-lg font-medium mt-2 break-words font-helvetica400">
+          <p className="text-[#556070] text-base sm:text-lg font-medium mt-2 wrap-break-word font-helvetica400">
             I interviewed 14 newcomers to Canada and the UK to uncover needs,
             fears, and barriers.
           </p>

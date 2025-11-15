@@ -12,10 +12,10 @@ export default function GetSaved() {
             <h3 className="text-[#87909D] text-xs sm:text-[13px]">
               UX/UI DESIGN
             </h3>
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               GetSave USSD
             </h2>
-            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] break-words font-helvetica400">
+            <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] wrap-break-word font-helvetica400">
               Empowering your financial journey through smarter saving tools.
               https://getsave.io/
             </h4>
@@ -28,11 +28,11 @@ export default function GetSaved() {
           </div>
         </div>
         <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-8 text-[#556070] max-w-full box-border min-w-0">
-          <div className="break-words">
-            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+          <div className="wrap-break-word">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
               Background & Goals
             </h2>
-            <p className="font-helvetica400 text-base sm:text-lg leading-6 sm:leading-7 break-words">
+            <p className="font-helvetica400 text-base sm:text-lg leading-6 sm:leading-7 wrap-break-word">
               SAVE was created from a deep passion to empower unbanked
               individuals who traditionally save in informal groups using
               physical cash boxes. The goal was to help them transition to a
@@ -40,22 +40,22 @@ export default function GetSaved() {
             </p>
           </div>
           <Image src={rvo} alt="saving" className="w-full h-auto" />
-          <div className="break-words">
-            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+          <div className="wrap-break-word">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
               The key objectives were
             </h2>
-            <ol className="grid gap-2 sm:gap-2 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
-              <li className="break-words">
+            <ol className="grid gap-2 sm:gap-2 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 wrap-break-word font-helvetica400">
+              <li className="wrap-break-word">
                 Digitise the traditional group-saving process
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Provide full transparency so all members can view their
                 contributions and group funds
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Ensure easy access to loans within the group
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Enable members to contribute anytime, from anywhere
               </li>
             </ol>
@@ -66,7 +66,7 @@ export default function GetSaved() {
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start py-8 sm:py-12 md:py-16 lg:pt-20 lg:pb-0 max-w-full box-border">
         <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               The Challenge
             </h2>
             <Image
@@ -77,28 +77,28 @@ export default function GetSaved() {
           </div>
         </div>
         <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-8 text-[#556070] max-w-full box-border min-w-0">
-          <div className="break-words">
-            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+          <div className="wrap-break-word">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
               Challenges
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
-              <li className="break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 wrap-break-word font-helvetica400">
+              <li className="wrap-break-word">
                 Understanding and empathising with users to uncover their real
                 saving habits and motivations
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Aligning our solution to fit within their existing saving
                 methods and routines
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Accounting for limited mobile phone access and inconsistent
                 internet connectivity
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Accounting for limited mobile phone access and inconsistent
                 internet connectivity
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Testing prototypes with users and iterating based on feedback
                 and observed difficulties
               </li>
@@ -110,18 +110,18 @@ export default function GetSaved() {
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start py-8 sm:py-12 md:py-16 lg:py-20 max-w-full box-border">
         <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
-            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
+            <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
               Role and Responsibilites
             </h2>
             <Image src={group} alt="" className="w-full h-auto mt-2 sm:mt-4" />
           </div>
         </div>
         <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-8 text-[#556070] max-w-full box-border min-w-0">
-          <div className="break-words">
-            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+          <div className="wrap-break-word">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
               My role & the team
             </h2>
-            <h3 className="text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
+            <h3 className="text-base sm:text-lg leading-6 sm:leading-7 wrap-break-word font-helvetica400">
               I collaborated closely with a Project Manager (who also served as
               an interpreter) and a team of five engineers to bring the project
               vision to life. Our strong cross-functional teamwork and clear
@@ -130,20 +130,20 @@ export default function GetSaved() {
               concept to execution.
             </h3>
           </div>
-          <div className="break-words">
-            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
+          <div className="wrap-break-word">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">
               My responsibilities were:
             </h2>
-            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 break-words font-helvetica400">
-              <li className="break-words">
+            <ol className="grid gap-3 sm:gap-4 list-disc list-inside ml-3 sm:ml-4 text-base sm:text-lg leading-6 sm:leading-7 wrap-break-word font-helvetica400">
+              <li className="wrap-break-word">
                 Led the end-to-end product design process, from user research
                 and wireframing to high-fidelity prototyping and handoff
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Ensured design alignment with core product goals and overall
                 business objectives to maintain a clear user-centred direction
               </li>
-              <li className="break-words">
+              <li className="wrap-break-word">
                 Conducted and facilitated usability testing sessions to gather
                 real user insights, validate design decisions, and guide
                 data-driven iterations for improved user experience

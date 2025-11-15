@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 mt-8 sm:mt-12 md:mt-16 lg:mt-[70px] mb-12 sm:mb-16 md:mb-24 lg:mb-[200px] max-w-full box-border">
+    <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 mt-8 sm:mt-12 md:mt-16 mb-12 sm:mb-16 md:mb-24 lg:pb-[100px] max-w-full box-border">
       {/* Left Section */}
       <div className="w-full lg:w-[470px] lg:sticky lg:top-0 lg:self-start lg:shrink-0 max-w-full box-border">
         {/* Portrait Image */}
@@ -18,12 +18,12 @@ const AboutPage = () => {
         </div>
 
         {/* Name */}
-        <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-2 break-words">
+        <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-2 wrap-break-word">
           Olusegun Aribido
         </h1>
 
         {/* Nickname */}
-        <p className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-6 break-words">
+        <p className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-6 wrap-break-word font-helvetica400">
           💡 You can call me Victor
         </p>
 
@@ -36,15 +36,15 @@ const AboutPage = () => {
       {/* Right Section */}
       <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 max-w-full box-border min-w-0">
         {/* Heading */}
-        <h2 className="text-[#2F80ED] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-2 break-words">
+        <h2 className="text-[#2F80ED] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-2 wrap-break-word">
           About me
         </h2>
 
         {/* Text Content */}
-        <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 space-y-4 sm:space-y-5 min-w-0">
-          <p className="break-words">
+        <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 space-y-4 sm:space-y-5 min-w-0 font-helvetica400">
+          <p className="wrap-break-word">
             I didn’t start my career pushing pixels, I started by cutting
-            fabric.  Before becoming a product designer, I was immersed in the
+            fabric. Before becoming a product designer, I was immersed in the
             world of fashion design, sketching patterns, tailoring details, and
             learning how every stitch could change how someone felt. That
             experience taught me something I’ve carried into every digital
@@ -52,7 +52,7 @@ const AboutPage = () => {
             it looks.
           </p>
 
-          <p className="break-words">
+          <p className="wrap-break-word">
             Over the years, I&apos;ve traded fabric for Figma, but my obsession
             with crafting human-centered experiences hasn&apos;t changed.
             I&apos;ve designed for industries as varied as agriculture, fintech,
@@ -62,7 +62,7 @@ const AboutPage = () => {
             beyond.
           </p>
 
-          <p className="break-words">
+          <p className="wrap-break-word">
             When I&apos;m not refining user flows or prototyping new ideas,
             you&apos;ll probably find me doodling or sketching isometric worlds,
             translating abstract thoughts into playful visuals. Away from the
@@ -73,7 +73,7 @@ const AboutPage = () => {
             work.
           </p>
 
-          <p className="break-words">
+          <p className="wrap-break-word">
             At home, I share my love for creativity with my daughter, often
             building imaginary cities out of LEGO bricks. And when I&apos;m not
             building something with my hands, I&apos;m out on the football
@@ -81,7 +81,7 @@ const AboutPage = () => {
             drives great design.
           </p>
 
-          <p className="break-words">
+          <p className="wrap-break-word">
             If there&apos;s one thing that defines me, it&apos;s curiosity. I
             love exploring how things work, and how they could work better.
             Whether I&apos;m leading a design sprint, collaborating with
@@ -90,7 +90,7 @@ const AboutPage = () => {
             seen, understood, and empowered.
           </p>
 
-          <p className="break-words">
+          <p className="wrap-break-word">
             Let&apos;s build something meaningful, something that tells a story
             worth experiencing.
           </p>

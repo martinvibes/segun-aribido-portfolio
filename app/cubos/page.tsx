@@ -32,14 +32,14 @@ const CubosPage = () => {
                 <h2
                   className={
                     index === 0
-                      ? "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words"
-                      : "text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words"
+                      ? "text-[#1A1A1A] text-2xl sm:text-3xl  font-bold wrap-break-word"
+                      : "text-[#1A1A1A] text-2xl sm:text-3xl font-bold wrap-break-word"
                   }
                 >
                   {section.leftTitle}
                 </h2>
                 {section.leftSubtitle && (
-                  <p className="text-[#556070] text-base sm:text-lg font-normal py-2 break-words font-helvetica400">
+                  <p className="text-[#556070] text-base sm:text-lg font-normal py-2 wrap-break-word font-helvetica400">
                     {section.leftSubtitle}
                   </p>
                 )}
@@ -54,7 +54,7 @@ const CubosPage = () => {
                   </a>
                 )}
                 {section.leftDescription && (
-                  <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 break-words">
+                  <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 wrap-break-word">
                     {section.leftDescription}
                   </p>
                 )}
@@ -79,12 +79,12 @@ const CubosPage = () => {
               <h2
                 className={`text-[#2F80ED] text-xl sm:text-[22px] font-medium ${
                   index === 0 ? "pt-0 lg:pt-[17px]" : ""
-                } mb-2 break-words`}
+                } mb-2 wrap-break-word`}
               >
                 {section.rightHeading}
               </h2>
               {section.rightDescription && (
-                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words font-helvetica400">
+                <div className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
                   {section.rightDescription
                     .split("\n")
                     .map((paragraph, idx) => (
@@ -96,12 +96,12 @@ const CubosPage = () => {
               )}
               {section.rightBullets && (
                 <>
-                  <h3 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mt-4 sm:mt-6 mb-2 break-words">
+                  <h3 className="text-[#2F80ED] text-xl sm:text-[22px] font-medium mt-4 sm:mt-6 mb-2 wrap-break-word">
                     My responsibilities were:
                   </h3>
-                  <ul className="list-disc space-y-0.5 mt-2 font-helvetica400 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 break-words">
+                  <ul className="list-disc space-y-0.5 mt-2 font-helvetica400 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 wrap-break-word">
                     {section.rightBullets.map((bullet, idx) => (
-                      <li key={idx} className="break-words">
+                      <li key={idx} className="wrap-break-word">
                         {bullet}
                       </li>
                     ))}
@@ -109,7 +109,7 @@ const CubosPage = () => {
                 </>
               )}
               {section.rightConclusion && (
-                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 break-words font-helvetica400">
+                <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-4 wrap-break-word font-helvetica400">
                   {section.rightConclusion}
                 </p>
               )}
@@ -121,10 +121,10 @@ const CubosPage = () => {
       {/* Cubos Features 1 */}
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-[100px]">
         <div className="w-full lg:w-[783px] max-w-full box-border">
-          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-3 break-words">
+          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-3 wrap-break-word">
             Envisioning Future User Experiences through User Flows
           </h1>
-          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words font-helvetica400">
+          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
             Designing an AI-powered news classification platform required a
             strong focus on optimizing user flows to deliver a seamless and
             intuitive experience. I explored multiple design iterations, mapping
@@ -147,10 +147,10 @@ const CubosPage = () => {
       {/* Cubos Features 2 */}
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-[88px]">
         <div className="w-full lg:w-[528px] xl:w-[783px] max-w-full box-border">
-          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-3 break-words">
+          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-3 wrap-break-word">
             Wire-framing
           </h1>
-          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words font-helvetica400">
+          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
             To clarify and validate the user experience early in the design
             process, I began by creating rough sketches and low-fidelity
             wireframes that visualized my initial ideas for the platform&apos;s
@@ -176,10 +176,10 @@ const CubosPage = () => {
 
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-[88px] flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 sm:gap-8 lg:gap-10">
         <div className="w-full lg:w-[500px] max-w-full box-border min-w-0">
-          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold break-words">
+          <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
             High-Fidelity Design
           </h1>
-          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words font-helvetica400">
+          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word font-helvetica400">
             I quickly transformed low-fidelity sketches into high-fidelity UI
             designs to craft a polished, user-centered experience for the
             platform. Using an iterative design process, I developed interactive
@@ -262,14 +262,14 @@ const CubosPage = () => {
         </div>
 
         <div className="w-full lg:w-[528px] xl:w-[628px]  lg:shrink-0 space-y-2 sm:space-y-2 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 max-w-full box-border min-w-0">
-          <p className="break-words font-helvetica400">
+          <p className="wrap-break-word font-helvetica400">
             To finalize the project, I consolidated all UI components into a
             unified design system, ensuring visual consistency, scalability, and
             development efficiency across the platform. This Figma-based design
             system streamlined collaboration, enabling the engineering team to
             implement, maintain, and iterate on the product with ease.
           </p>
-          <p className="break-words font-helvetica400">
+          <p className="wrap-break-word font-helvetica400">
             For quality assurance, I implemented a side-by-side design
             validation process, comparing screenshots from the staging
             environment with the original Figma design files. This method
@@ -277,14 +277,14 @@ const CubosPage = () => {
             including spacing inconsistencies, color mismatches, and text
             errors, ensuring pixel-perfect accuracy before launch.
           </p>
-          <p className="break-words font-helvetica400">
+          <p className="wrap-break-word font-helvetica400">
             This structured and detail-oriented approach resulted in a
             high-quality, production-ready design that was efficient to build,
             easy to maintain, and visually consistent across all user
             interfaces.
           </p>
 
-          <p className="mt-4 text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 break-words">
+          <p className="mt-4 text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word">
             <a
               href="https://bit.ly/3wz0Okc"
               target="_blank"
