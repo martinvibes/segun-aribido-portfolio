@@ -13,7 +13,7 @@ export default function OpenSource() {
           <div className="absolute inset-0 bg-black rounded-2xl" />
           <video
             className="absolute inset-0 w-full h-full object-cover rounded-2xl"
-            src="/video/School Design.mp4"
+            src="/video/School Design compressed.mp4"
             autoPlay
             muted
             playsInline
@@ -25,7 +25,7 @@ export default function OpenSource() {
           <div className="relative overflow-hidden rounded-2xl bg-gray-100">
             <video
               className="absolute inset-0 w-full h-full object-cover"
-              src="/video/wallet 1.mp4"
+              src="/video/wallet_hero.mp4"
               autoPlay
               muted
               playsInline

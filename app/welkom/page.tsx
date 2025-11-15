@@ -21,7 +21,7 @@ import feedback1 from "../../public/welkom_exchange.png";
 
 export default function Page() {
   return (
-    <main className="my-6 sm:my-8 md:my-10 flex flex-col gap-8 sm:gap-12 md:gap-16 lg:gap-20 max-w-full overflow-x-hidden box-border">
+    <div className="my-6 sm:my-8 md:my-10 flex flex-col gap-8 sm:gap-12 md:gap-16 lg:gap-20 max-w-full box-border">
       <header className="w-full max-w-full box-border">
         <Image
           className="border mx-auto w-full max-w-full lg:w-[1440px] h-auto"
@@ -192,6 +192,6 @@ export default function Page() {
 
       <High />
       <LastPart />
-    </main>
+    </div>
   );
 }

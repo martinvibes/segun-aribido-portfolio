@@ -50,7 +50,7 @@ tools, guidance, and community they need.`,
   ];
 
   return (
-    <div id="work" className="scroll-smooth">
+    <div id="work" className="scroll-smooth top-[150px] self-start">
       <div className="text-[#505050] text-center mb-10">
         <h2 className="font-medium text-[40px]">Selected Work</h2>
         <h4 className="text-2xl font-normal">
