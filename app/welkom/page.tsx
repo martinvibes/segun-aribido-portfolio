@@ -179,7 +179,7 @@ export default function Page() {
           </div>
         </div>
 
-        {/* Feedback 2 */}
+        {/* Feedbacks 2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-14 justify-between mt-4 max-w-full box-border">
           <div className="grid gap-3 max-w-full box-border">
             <Image src={frame4} alt="frame" className="w-full h-auto" />
