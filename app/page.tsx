@@ -12,7 +12,7 @@ export default function Home() {
       <header className="">
         <HeroIntro />
         <HeroDesign />
-        <div className="flex justify-center my-4 sm:my-6 md:my-8 lg:my-2">
+        <div className="flex justify-center my-2">
           <button
             onClick={() =>
               window.open(
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="my-12 sm:my-16 md:my-20">
+      <div className="my-12 sm:my-16 md:my-6">
         <DesignPhilosophy />
       </div>
       <SelectedWork />

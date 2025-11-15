@@ -12,7 +12,7 @@ import CardStackAnimation from "./clarity-animation";
 import bg from "../../public/ruler.png";
 export function DesignPhilosophy() {
   return (
-    <section className="relative py-12 sm:py-16 md:py-20 lg:py-28 overflow-hidden min-h-screen max-w-full box-border">
+    <section className="relative py-12 sm:py-16 md:py-20 lg:py-28 md:px-7 px-0  overflow-hidden min-h-screen max-w-full box-border">
       <Image
         src={bg}
         alt="side ruler"

@@ -2,13 +2,14 @@ export default function Question() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start my-12 sm:my-16 md:my-20 max-w-full box-border">
       <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
-        <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold mt-1 wrap-break-word">
+        <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold wrap-break-word">
           Got Questions
         </h2>
         <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mt-2 wrap-break-word font-helvetica400">
           What I Bring to the Table
         </h4>
       </div>
+
       <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-7 md:gap-8 text-[#556070] max-w-full box-border min-w-0">
         <div className="wrap-break-word">
           <h2 className="text-[#1A1A1A] font-medium text-lg sm:text-xl md:text-2xl lg:text-[24px] wrap-break-word">
