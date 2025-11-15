@@ -24,7 +24,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="bg-[#FFFFFF66] backdrop-blur-md sticky top-6 md:top-8 z-50 flex justify-between items-center gap-2 sm:gap-4 rounded-full py-2 sm:py-3 md:py-4 px-3 sm:px-4 md:px-6 shadow-md border border-white/20 lg:mx-auto max-w-[1440px]">
+      <nav className="bg-[#FFFFFF66] backdrop-blur-md sticky top-6 md:top-8 z-[60] flex justify-between items-center gap-2 sm:gap-4 rounded-full py-2 sm:py-3 md:py-4 px-3 sm:px-4 md:px-6 shadow-md border border-white/20 lg:mx-auto max-w-[1440px]">
         <div className="flex flex-row items-center gap-2 sm:gap-3">
           <Link href="/">
             {" "}
