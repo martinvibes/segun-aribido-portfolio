@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import logo from "../../public/Frame 3232950.svg";
+import Link from "next/link";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,15 +13,27 @@ export default function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleWorkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const workSection = document.getElementById("work");
+    if (workSection) {
+      workSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <nav className="bg-[#FFFFFF66] backdrop-blur-md sticky top-6 md:top-8 z-50 flex justify-between items-center gap-2 sm:gap-4 rounded-full py-2 sm:py-3 md:py-4 px-3 sm:px-4 md:px-6 shadow-md border border-white/20 lg:mx-auto max-w-[1440px]">
         <div className="flex flex-row items-center gap-2 sm:gap-3">
-          <Image
-            src={logo}
-            alt="logo"
-            className="w-8 h-8 sm:w-10 sm:h-10 md:w-auto md:h-auto"
-          />
+          <Link href="/">
+            {" "}
+            <Image
+              src={logo}
+              alt="logo"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-auto md:h-auto"
+            />
+          </Link>
           <div className="flex flex-col">
             <span className="text-[#1A1A1A] font-extrabold font-bricolage text-xs sm:text-sm md:text-base">
               SEGUN
@@ -32,16 +45,35 @@ export default function Nav() {
         </div>
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex text-[#505050] items-center gap-6 xl:gap-9">
-          <li className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors">
+          <Link
+            href="/"
+            className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors"
+          >
             Home
-          </li>
-          <li className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors">
+          </Link>
+          <a
+            href="#work"
+            onClick={(e) => {
+              e.preventDefault();
+              const workSection = document.getElementById("work");
+              if (workSection) {
+                workSection.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }
+            }}
+            className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors"
+          >
             Work
-          </li>
-          <li className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors">
+          </a>
+          <Link
+            href="/about"
+            className="cursor-pointer text-base xl:text-[18px] hover:text-[#1A1A1A] transition-colors"
+          >
             About me
-          </li>
-          <button className="text-base xl:text-[18px] border border-[#505050] py-2 xl:py-[13px] px-4 xl:px-6 rounded-[8px] hover:bg-[#505050] hover:text-white transition-colors">
+          </Link>
+          <button className="text-base xl:text-[18px] border border-[#505050] py-2 xl:py-[13px] px-4 xl:px-6 rounded-[8px] hover:bg-[#505050] hover:text-white transition-colors cursor-pointer">
             Let&apos;s Work
           </button>
         </ul>
@@ -74,7 +106,8 @@ export default function Nav() {
       >
         <div className="flex flex-col items-center justify-center h-full gap-8 px-6">
           <ul className="text-[#505050] flex flex-col items-center gap-8 w-full">
-            <li
+            <Link
+              href="/"
               className={`cursor-pointer text-[18px] hover:text-[#1A1A1A] transition-all duration-300 w-full text-center py-2 border-b border-[#505050]/20 ${
                 isMenuOpen
                   ? "opacity-100 translate-y-0"
@@ -86,8 +119,10 @@ export default function Nav() {
               onClick={toggleMenu}
             >
               Home
-            </li>
-            <li
+            </Link>
+            <a
+              href="#work"
+              onClick={handleWorkClick}
               className={`cursor-pointer text-[18px] hover:text-[#1A1A1A] transition-all duration-300 w-full text-center py-2 border-b border-[#505050]/20 ${
                 isMenuOpen
                   ? "opacity-100 translate-y-0"
@@ -96,11 +131,11 @@ export default function Nav() {
               style={{
                 transitionDelay: isMenuOpen ? "0.4s" : "0s",
               }}
-              onClick={toggleMenu}
             >
               Work
-            </li>
-            <li
+            </a>
+            <Link
+              href="/about"
               className={`cursor-pointer text-[18px] hover:text-[#1A1A1A] transition-all duration-300 w-full text-center py-2 border-b border-[#505050]/20 ${
                 isMenuOpen
                   ? "opacity-100 translate-y-0"
@@ -112,9 +147,9 @@ export default function Nav() {
               onClick={toggleMenu}
             >
               About me
-            </li>
+            </Link>
             <button
-              className={`text-[18px] border border-[#505050] py-[13px] px-6 rounded-[8px] hover:bg-[#505050] hover:text-white transition-all duration-300 w-full max-w-[200px] ${
+              className={`text-[18px] border border-[#505050] py-[13px] px-6 rounded-[8px] hover:bg-[#505050] hover:text-white transition-all duration-300 w-full max-w-[200px] cursor-pointer ${
                 isMenuOpen
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 -translate-y-4"

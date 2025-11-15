@@ -50,7 +50,7 @@ tools, guidance, and community they need.`,
   ];
 
   return (
-    <div>
+    <div id="work" className="scroll-smooth">
       <div className="text-[#505050] text-center mb-10">
         <h2 className="font-medium text-[40px]">Selected Work</h2>
         <h4 className="text-2xl font-normal">
@@ -73,7 +73,7 @@ tools, guidance, and community they need.`,
                 <div className="mt-10 mb-2">
                   <Link
                     href={data.link}
-                    className="flex border border-[#132238] items-center w-fit py-2 px-4 text-[#132238] gap-3 rounded-lg"
+                    className="flex border border-[#132238] cursor-pointer items-center w-fit py-2 px-4 text-[#132238] gap-3 rounded-lg"
                   >
                     <span>Case study</span>
                     <ArrowLeft size="24" />

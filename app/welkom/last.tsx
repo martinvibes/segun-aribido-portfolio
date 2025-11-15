@@ -1,17 +1,17 @@
-import group from "../../public/Group 19230.svg";
+import group from "../../public/dev-handbook.png";
 import colors from "../../public/Colours.svg";
 import screenshot from "../../public/Screenshot 2025-10-10 at 07.33.36 1.svg";
 import Image from "next/image";
 
 export default function LastPart() {
   return (
-    <section>
-      <div className="max-w-[575px]">
+    <section className="max-w-full box-border">
+      <div className="w-full lg:max-w-[575px] mt-8 sm:mt-12 md:mt-16 lg:mt-[88px] mb-6 sm:mb-8 md:mb-10 max-w-full box-border">
         <div className="">
-          <h2 className="text-[32px] text-[#1A1A1A] font-bold">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Developer Handoff
           </h2>
-          <h4 className="text-[#556070] text-[18px]">
+          <h4 className="text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 font-normal mt-2 break-words">
             To conclude the project, I took the extra step of consolidating all
             design components into a structured design system. This provided
             consistency and made it easier for the development team to implement
@@ -26,17 +26,39 @@ export default function LastPart() {
           </h4>
         </div>
       </div>
-      <Image className="mx-auto w-[1440px]" src={group} alt="wireframe" />
-      <Image className="mx-auto w-[1440px]" src={screenshot} alt="wireframe" />
-      <Image className="mx-auto w-[1440px]" src={colors} alt="wireframe" />
-      <div className="pb-20 max-w-[575px]">
+
+      <div className="w-full max-w-full overflow-hidden">
+        <Image
+          width={1200}
+          height={1000}
+          className="w-full h-auto"
+          src={group}
+          alt="wireframe"
+        />
+      </div>
+      <div className="flex justify-center max-w-full overflow-hidden">
+        <Image
+          className="w-full max-w-[1440px] h-auto"
+          src={screenshot}
+          alt="wireframe"
+        />
+      </div>
+      <div className="flex justify-center max-w-full overflow-hidden">
+        <Image
+          className="w-full max-w-[1440px] h-auto"
+          src={colors}
+          alt="wireframe"
+        />
+      </div>
+
+      <div className="pb-12 sm:pb-16 md:pb-20 mt-8 sm:mt-10 md:mt-12 w-full lg:max-w-[575px] max-w-full box-border">
         <div className="">
-          <h2 className="text-[32px] text-[#1A1A1A] font-bold">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Learning & Achievement
           </h2>
-          <h4 className="text-[#556070] text-[18px]">
-            This has been one of the most exciting and meaningful projects I’ve
-            worked on. Prior to this, I had never designed a product
+          <h4 className="text-[#556070] text-base sm:text-lg font-normal mb-4 sm:mb-5 mt-2 break-words">
+            This has been one of the most exciting and meaningful projects
+            I&apos;ve worked on. Prior to this, I had never designed a product
             specifically for people migrating from one country to another.
             Having experienced the challenges of relocating from Nigeria to
             Rwanda myself, I understood how overwhelming it can be to face so
@@ -44,9 +66,16 @@ export default function LastPart() {
             designed to support newcomers with relevant, localised information.
             It has since received recognition from Venn Innovation for its
             impact on individuals planning to migrate to Canada. Additionally,
-            Welkom-U’s CEO was named one of Atlantic Business magazine’s 30
-            Under 30. View the live project: www.welkom-u.ca
+            Welkom-U&apos;s CEO was named one of Atlantic Business
+            magazine&apos;s 30 Under 30.
           </h4>
+          <span className="text-[#556070] text-base sm:text-lg">
+            {" "}
+            View the live project:{" "}
+            <a href="www.welkom-u.ca" className="underline break-all">
+              www.welkom-u.ca
+            </a>{" "}
+          </span>
         </div>
       </div>
     </section>

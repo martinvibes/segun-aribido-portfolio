@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${brick.variable} ${shadowsIntoLight.variable} ${myCustomFont.variable} bg-[#F4F2FB] mt-7 font-helvetica`}
       >

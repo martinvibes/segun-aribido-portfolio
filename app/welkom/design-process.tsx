@@ -2,67 +2,68 @@ import { AnalysisCamera, ClipBoard, Message, Pen } from "../components/icons";
 
 export default function DesignProcess() {
   return (
-    <div className="flex justify-between mt-[120px]">
-      <div className="max-w-[383px]">
-        <div className="sticky top-0">
-          <h2 className="text-[32px] text-[#1A1A1A] font-bold">
+    <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-8 sm:mt-12 md:mt-16 lg:mt-[120px] max-w-full box-border">
+      <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="lg:sticky lg:top-[100px]">
+          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
             Design Process
           </h2>
-          <h3 className="text-[#556070] font-medium">
+          <h3 className="text-[#556070] text-base sm:text-lg font-medium mt-2 break-words">
             ~9 Weeks to Idea Validation
           </h3>
         </div>
       </div>
-      <div className="max-w-[628px] text-lg grid gap-12 text-[#556070]">
-        <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
+      <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 text-base sm:text-lg grid gap-6 sm:gap-8 md:gap-10 lg:gap-12 text-[#556070] max-w-full box-border min-w-0">
+        <div className="bg-[#E5E3ED] grid gap-3 sm:gap-4 p-4 sm:p-6 lg:p-8 rounded-lg break-words">
           <div className="flex flex-col gap-2">
             <ClipBoard />
-            <h2 className="text-[#2F80ED] font-medium text-[22px]">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Synthesising the Problem
             </h2>
           </div>
-          <p className="">
+          <p className="text-base sm:text-lg break-words">
             I created empathy maps to synthesise user feedback and identify key
             needs, including access to accommodation, job opportunities, and a
             sense of community and belonging.
           </p>
         </div>
-        <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
+        <div className="bg-[#E5E3ED] grid gap-3 sm:gap-4 p-4 sm:p-6 lg:p-8 rounded-lg break-words">
           <div className="flex flex-col gap-2">
             <Message />
-            <h2 className="text-[#2F80ED] font-medium text-[22px]">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Talking to Users
             </h2>
           </div>
-          <p className="">
+          <p className="text-base sm:text-lg break-words">
             I interviewed 14 users who had recently migrated to Canada and other
             countries to understand their experiences, challenges, and key pain
             points during relocation.
           </p>
         </div>
 
-        <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
+        <div className="bg-[#E5E3ED] grid gap-3 sm:gap-4 p-4 sm:p-6 lg:p-8 rounded-lg break-words">
           <div className="flex flex-col gap-2">
             <AnalysisCamera />
-            <h2 className="text-[#2F80ED] font-medium text-[22px]">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Analysing Discovery
             </h2>
           </div>
-          <p>
-            I reframed the problems into opportunities using the “How Might We”
-            framework. This helped the team explore solutions more effectively
-            and align around a shared understanding of the challenge.
+          <p className="text-base sm:text-lg break-words">
+            I reframed the problems into opportunities using the &quot;How Might
+            We&quot; framework. This helped the team explore solutions more
+            effectively and align around a shared understanding of the
+            challenge.
           </p>
         </div>
 
-        <div className="bg-[#E5E3ED] grid gap-4 p-8 rounded-lg">
+        <div className="bg-[#E5E3ED] grid gap-3 sm:gap-4 p-4 sm:p-6 lg:p-8 rounded-lg break-words">
           <div className="flex flex-col gap-2">
             <Pen />
-            <h2 className="text-[#2F80ED] font-medium text-[22px]">
+            <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] break-words">
               Designing the Experience
             </h2>
           </div>
-          <p>
+          <p className="text-base sm:text-lg break-words">
             I mapped out user flows and journeys, then created quick sketches to
             test key interactions early. This allowed us to refine the user
             experience before progressing to high-fidelity interface designs for
