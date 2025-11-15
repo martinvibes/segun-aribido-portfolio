@@ -212,21 +212,23 @@ const Farely = () => {
       </div>
 
       {/* Outcome */}
-      <div className=" gap-10 items-start mt-[120px] w-[543px]">
-        <div className="w-[383px] shrink-0 ">
-          <h2 className="text-[#1A1A1A] text-[32px] font-bold">
+      <div className="flex flex-col items-start mt-12 sm:mt-16 lg:mt-[120px]">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto box-border">
+          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
             {outcomeSection.leftTitle}
           </h2>
         </div>
 
-        <div className="w-[628px] shrink-0 font-helvetica400">
-          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-lg leading-7 pl-6">
+        <div className="w-full lg:w-[628px] lg:shrink-0 font-helvetica400 box-border max-w-full">
+          <ul className="list-disc space-y-0.5 mt-2 tracking-[0.8%] text-[#556070] text-base sm:text-lg leading-6 sm:leading-7 pl-5 sm:pl-6 wrap-break-word">
             {outcomeSection.bullets.map((bullet, idx) => (
-              <li key={idx}>{bullet}</li>
+              <li key={idx} className="wrap-break-word">
+                {bullet}
+              </li>
             ))}
           </ul>
           {outcomeSection.conclusion && (
-            <p className="text-[#556070] text-lg font-normal leading-7 mt-2">
+            <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 mt-2 wrap-break-word">
               {outcomeSection.conclusion}
             </p>
           )}
@@ -234,15 +236,15 @@ const Farely = () => {
       </div>
 
       {/* Reflection */}
-      <div className=" gap-10 items-start mt-[88px] mb-[108px] w-[543px]">
-        <div className="w-[383px] shrink-0 ">
-          <h2 className="text-[#1A1A1A] text-[32px] font-bold">
+      <div className="flex flex-col gap-2 items-start mt-12 sm:mt-16 lg:mt-[88px] mb-12 sm:mb-16 lg:mb-[108px]">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto box-border">
+          <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
             {reflectionSection.leftTitle}
           </h2>
         </div>
 
-        <div className="w-[628px] shrink-0 font-helvetica400">
-          <p className="text-[#556070] text-lg font-normal leading-7">
+        <div className="w-full lg:w-[628px] lg:shrink-0 font-helvetica400 box-border max-w-full">
+          <p className="text-[#556070] text-base sm:text-lg font-normal leading-6 sm:leading-7 wrap-break-word">
             {reflectionSection.description}
           </p>
         </div>
