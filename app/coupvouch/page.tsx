@@ -8,7 +8,7 @@ import {
 
 export const CoupvouchPage = () => {
   return (
-    <div className="max-w-full overflow-x-hidden box-border">
+    <div className="max-w-full box-border">
       {/* Hero Section */}
       <Image
         src="/coupvouch/coupvouch.svg"
@@ -27,7 +27,7 @@ export const CoupvouchPage = () => {
           >
             {/* Left Column */}
             {section.leftTitle ? (
-              <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+              <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
                 {index === 0 && (
                   <h3 className="text-[#87909D] text-xs font-medium mb-1">
                     UX/UI DESIGN

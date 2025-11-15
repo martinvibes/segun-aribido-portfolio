@@ -11,7 +11,7 @@ export default function End() {
   return (
     <section className="max-w-full box-border">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start max-w-full box-border">
-        <div className="w-full lg:w-[400px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="w-full lg:w-[400px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Validating Our Ideas through Usability Testing
@@ -84,8 +84,9 @@ export default function End() {
           </p>
         </div>
       </div>
+
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-12 sm:mt-16 md:mt-20 max-w-full box-border">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Beta Launch

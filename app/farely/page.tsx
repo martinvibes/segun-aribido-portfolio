@@ -10,7 +10,7 @@ import {
 
 const Farely = () => {
   return (
-    <div className=" box-border max-w-full overflow-x-hidden">
+    <div className=" box-border max-w-full">
       {/* Hero Section */}
       <Image
         src="/farely/farelyHero.svg"
@@ -28,7 +28,7 @@ const Farely = () => {
             className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-12 sm:mt-16 lg:mt-[100px]"
           >
             {/* Left Column */}
-            <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto box-border">
+            <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto box-border">
               {index === 0 && (
                 <h3 className="text-[#87909D] text-xs font-medium mb-1">
                   UX/UI DESIGN
@@ -92,7 +92,7 @@ const Farely = () => {
 
       {/* User Personas */}
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-12 sm:mt-16 lg:mt-[120px] mb-12 sm:mb-16 lg:mb-0">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
           <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold">
             {userPersonasSection.leftTitle}
           </h2>
@@ -137,7 +137,7 @@ const Farely = () => {
 
       {/* Design Approach */}
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start mt-12 sm:mt-16 lg:mt-[120px] mb-12 sm:mb-16 lg:mb-0">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:mt-[10px] lg:sticky lg:top-[100px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:mt-[10px] lg:sticky lg:top-[130px] lg:self-start lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
           <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold">
             {designApproachSection.leftTitle}
           </h2>
@@ -213,7 +213,7 @@ const Farely = () => {
 
       {/* Outcome */}
       <div className=" gap-10 items-start mt-[120px] w-[543px]">
-        <div className="w-[383px] shrink-0 sticky top-0 self-start">
+        <div className="w-[383px] shrink-0 ">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {outcomeSection.leftTitle}
           </h2>
@@ -235,7 +235,7 @@ const Farely = () => {
 
       {/* Reflection */}
       <div className=" gap-10 items-start mt-[88px] mb-[108px] w-[543px]">
-        <div className="w-[383px] shrink-0 sticky top-0 self-start">
+        <div className="w-[383px] shrink-0 ">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {reflectionSection.leftTitle}
           </h2>

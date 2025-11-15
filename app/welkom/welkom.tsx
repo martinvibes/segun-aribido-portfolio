@@ -3,26 +3,23 @@ import Link from "next/link";
 export default function WelkomSection() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start max-w-full box-border">
-      <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
-        <div className="lg:sticky lg:top-[100px]">
-          <h3 className="text-[#87909D] text-xs sm:text-[13px]">
-            UX/UI DESIGN
-          </h3>
-          <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold mt-1 wrap-break-word">
-            Welkom-U Dashboard
-          </h2>
-          <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mb-3 sm:mb-4 mt-2 font-helvetica400 font-normal wrap-break-word">
-            Helping immigrants settle seamlessly, with the tools, guidance, and
-            community they need.
-          </h4>
-          <Link
-            className="text-[#556070] text-sm sm:text-base lg:text-lg font-medium underline break-all"
-            href="https://www.welkom-u.ca/"
-          >
-            www.welkom-u.ca
-          </Link>
-        </div>
+      <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
+        <h3 className="text-[#87909D] text-xs sm:text-[13px]">UX/UI DESIGN</h3>
+        <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold mt-1 wrap-break-word">
+          Welkom-U Dashboard
+        </h2>
+        <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] mb-3 sm:mb-4 mt-2 font-helvetica400 font-normal wrap-break-word">
+          Helping immigrants settle seamlessly, with the tools, guidance, and
+          community they need.
+        </h4>
+        <Link
+          className="text-[#556070] text-sm sm:text-base lg:text-lg font-medium underline break-all"
+          href="https://www.welkom-u.ca/"
+        >
+          www.welkom-u.ca
+        </Link>
       </div>
+
       <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-8 text-[#556070] max-w-full box-border min-w-0">
         <div className="wrap-break-word">
           <h2 className="text-[#2F80ED] font-medium text-xl sm:text-[22px] wrap-break-word">

@@ -7,7 +7,7 @@ import image4 from "../../public/Group 19223.svg";
 export default function High() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-14 justify-between pt-8 sm:pt-12 md:pt-16 lg:pt-32 max-w-full box-border">
-      <div className="w-full lg:max-w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+      <div className="w-full lg:max-w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
         <div className="lg:sticky lg:top-[100px] w-full lg:w-[417px]">
           <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold mb-2 break-words">
             High Fidelity Design

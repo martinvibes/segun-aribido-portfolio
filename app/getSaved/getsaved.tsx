@@ -7,7 +7,7 @@ export default function GetSaved() {
   return (
     <>
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start max-w-full box-border">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
             <h3 className="text-[#87909D] text-xs sm:text-[13px]">
               UX/UI DESIGN
@@ -64,7 +64,7 @@ export default function GetSaved() {
       </div>
 
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start py-8 sm:py-12 md:py-16 lg:pt-20 lg:pb-0 max-w-full box-border">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               The Challenge
@@ -108,7 +108,7 @@ export default function GetSaved() {
       </div>
 
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 items-start py-8 sm:py-12 md:py-16 lg:py-20 max-w-full box-border">
-        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+        <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
           <div className="lg:sticky lg:top-[100px]">
             <h2 className="text-2xl sm:text-3xl lg:text-[32px] text-[#1A1A1A] font-bold break-words">
               Role and Responsibilites

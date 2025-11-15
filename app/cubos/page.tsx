@@ -23,7 +23,7 @@ const CubosPage = () => {
           >
             {/* Left Column */}
             {section.leftTitle ? (
-              <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[100px] lg:self-start max-w-full box-border">
+              <div className="w-full lg:w-[383px] lg:shrink-0 lg:sticky lg:top-[130px] lg:self-start max-w-full box-border">
                 {index === 0 && (
                   <h3 className="text-[#87909D] text-xs font-medium mb-1">
                     UI DESIGN

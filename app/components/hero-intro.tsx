@@ -22,17 +22,17 @@ export function HeroIntro() {
   }, [images.length]);
 
   return (
-    <div className="mt-[110px] flex  mx-auto text-[#1A1A1A] flex-col gap-3">
-      <h1 className="text-5xl font-bold inline-flex items-center justify-center gap-4">
+    <div className="mt-8 sm:mt-20 md:mt-24 lg:mt-[110px] flex mx-auto text-[#1A1A1A] flex-col gap-2 sm:gap-3 max-w-full box-border">
+      <h1 className="text-4xl lg:text-5xl font-bold inline-flex items-center justify-center gap-2 sm:gap-3 md:gap-4 flex-wrap break-words">
         <span>Hi,</span>
         <Image
           src={images[currentImageIndex] || "/placeholder.svg"}
           alt="Segun"
-          className="w-fit  object-cover"
+          className="w-auto h-15 lg:h-auto object-cover"
         />
         <span>I&apos;m Segun</span>
       </h1>
-      <h2 className="text-[#505050] font-medium text-5xl leading-14 w-fit mx-auto">
+      <h2 className="text-[#505050] font-medium text-2xl md:text-3xl lg:text-5xl leading-tight sm:leading-normal lg:leading-14 w-fit mx-auto text-center break-words">
         an Interaction Designer{" "}
       </h2>
     </div>

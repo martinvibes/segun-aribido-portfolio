@@ -17,7 +17,7 @@ const SavePlus = () => {
 
       {/* Project Overview */}
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-10 mt-10 sm:mt-16 lg:mt-[70px]">
-        <div className="w-full lg:w-[383px] lg:sticky lg:top-0 lg:self-start">
+        <div className="w-full lg:w-[383px] lg:sticky lg:top-[130px] lg:self-start">
           <h3 className="text-[#87909D] text-xs font-medium mb-1">
             UX/UI DESIGN
           </h3>
@@ -75,7 +75,7 @@ const SavePlus = () => {
 
       {/* Design Process */}
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-10 mt-16 sm:mt-24 lg:mt-[120px]">
-        <div className="w-full lg:w-[383px] lg:sticky lg:top-[70px] lg:self-start">
+        <div className="w-full lg:w-[383px] lg:sticky lg:top-[130px] lg:self-start">
           <h1 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-1">
             Design Process
           </h1>
@@ -112,7 +112,7 @@ const SavePlus = () => {
 
       {/* Research */}
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 mt-12 sm:mt-16 lg:mt-24 xl:mt-[120px] mb-12 sm:mb-16 lg:mb-24 px-4 sm:px-6 lg:px-0">
-        <div className="w-full lg:sticky lg:top-[100px] lg:self-start lg:w-[437px] lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
+        <div className="w-full lg:sticky lg:top-[130px] lg:self-start lg:w-[437px] lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto">
           <h1 className="text-[#1A1A1A] text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-bold mb-2 sm:mb-1">
             Research
           </h1>
@@ -200,7 +200,7 @@ const SavePlus = () => {
       </div>
 
       <div className="mt-16 sm:mt-24 lg:mt-[120px] flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-10">
-        <div className="w-full lg:w-[384px] lg:sticky lg:top-0 lg:self-start">
+        <div className="w-full lg:w-[384px] lg:sticky lg:top-[130px] lg:self-start">
           <h1 className="text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#1A1A1A]">
             Sketches
           </h1>
@@ -216,21 +216,21 @@ const SavePlus = () => {
 
         <div className="flex flex-col gap-6 sm:gap-9 w-full lg:w-[572px]">
           <Image
-            src="/savePlus/sketch1.svg"
+            src="/savePlus/sketch11.png"
             alt="userFlows"
             width={572}
             height={354}
             className="w-full h-auto"
           />
           <Image
-            src="/savePlus/sketch2.svg"
+            src="/savePlus/sketch22.png"
             alt="userFlows"
             width={572}
             height={354}
             className="w-full h-auto"
           />
           <Image
-            src="/savePlus/sketch3.svg"
+            src="/savePlus/sketch33.png"
             alt="userFlows"
             width={572}
             height={354}
