@@ -22,7 +22,7 @@ export function HeroIntro() {
   }, [images.length]);
 
   return (
-    <div className="my-12 flex justify-center text-[#1A1A1A] flex-col gap-3">
+    <div className="mt-[110px] flex  mx-auto text-[#1A1A1A] flex-col gap-3">
       <h1 className="text-5xl font-bold inline-flex items-center justify-center gap-4">
         <span>Hi,</span>
         <Image
@@ -32,7 +32,7 @@ export function HeroIntro() {
         />
         <span>I&apos;m Segun</span>
       </h1>
-      <h2 className="text-[#505050] text-5xl w-fit mx-auto">
+      <h2 className="text-[#505050] font-medium text-5xl leading-14 w-fit mx-auto">
         an Interaction Designer{" "}
       </h2>
     </div>

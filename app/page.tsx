@@ -11,7 +11,7 @@ export default function Home() {
       <header>
         <HeroIntro />
         <HeroDesign />
-        <div className="flex justify-center my-24">
+        <div className="flex justify-center my-2">
           <button
             onClick={() =>
               window.open(
@@ -19,12 +19,13 @@ export default function Home() {
                 "_blank"
               )
             }
-            className="bg-[#1A1A1A] py-2.5 px-8 rounded-lg mx-auto"
+            className="bg-[#1A1A1A] py-4 px-8 cursor-pointer rounded-lg mx-auto"
           >
             <span className="border-[#FFFFFF] pb-px border-b"> Contact me</span>
           </button>
         </div>
       </header>
+
       <div className="my-20">
         <DesignPhilosophy />
       </div>
