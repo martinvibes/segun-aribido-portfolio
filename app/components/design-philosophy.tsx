@@ -1,6 +1,6 @@
 import Image from "next/image";
-import sideRuler from "../../public/Frame 3233132.svg";
-import bottomRuler from "../../public/Frame 3233132 (1).svg";
+import topRuler from "../../public/Group 19301.svg";
+import bottomRuler from "../../public/Group 19300.svg";
 import one from "../../public/1.svg";
 import two from "../../public/2.svg";
 import three from "../../public/3.svg";
@@ -9,20 +9,24 @@ import { AnimatedChart } from "./chart-animation";
 import AnimatedAvatars from "./avatars";
 import { WorkflowAnimation } from "./workflow";
 import CardStackAnimation from "./clarity-animation";
-
+import bg from "../../public/ruler.png";
 export function DesignPhilosophy() {
   return (
     <section className="relative py-12 sm:py-16 md:py-20 lg:py-28 overflow-hidden min-h-screen max-w-full box-border">
       <Image
-        src={sideRuler}
+        src={bg}
         alt="side ruler"
-        className="absolute left-0 top-0 h-full w-auto hidden lg:block"
+        className="absolute left-0 top-0 h-[105%] hidden lg:block"
       />
-
+      <Image
+        src={topRuler}
+        alt="top ruler"
+        className="absolute top-5 left-1/2 -translate-x-1/2 w-auto lg:hidden"
+      />
       <Image
         src={bottomRuler}
         alt="bottom ruler"
-        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto hidden lg:block"
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto  lg:hidden"
       />
       <div className="mx-0 md:mx-12 lg:mx-24 flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-7 max-w-full box-border">
         <div className="max-w-full lg:max-w-[821px]">
