@@ -2,6 +2,7 @@
 import { DesignPhilosophy } from "./components/design-philosophy";
 import { HeroDesign } from "./components/hero-design";
 import { HeroIntro } from "./components/hero-intro";
+import OpenSource from "./components/open-source";
 import Question from "./components/Q&A";
 import SelectedWork from "./components/selected-work";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <DesignPhilosophy />
       </div>
       <SelectedWork />
+      <OpenSource />
       <Question />
     </section>
   );

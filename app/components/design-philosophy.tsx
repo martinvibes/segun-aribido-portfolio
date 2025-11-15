@@ -29,7 +29,7 @@ export function DesignPhilosophy() {
           <h2 className="text-[40px] font-medium text-[#505050]">
             My Design Philosophy{" "}
           </h2>
-          <h3 className="text-[#505050] text-2xl font-normal">
+          <h3 className="text-[#505050] text-2xl font-normal font-helvetica400">
             I design with logic, empathy, and intent to create digital
             experiences that are functional, scalable, and human-centered. Great
             design, to me, blends clarity with craft, it solves real problems
@@ -51,7 +51,7 @@ export function DesignPhilosophy() {
                   <h2 className="font-bold text-2xl text-[#505050]">
                     Human-centered, Always
                   </h2>
-                  <h3 className="text-[#505050] text-2xl font-normal">
+                  <h3 className="text-[#505050] text-2xl font-normal font-helvetica400">
                     I start with people, their needs, stories, and frustrations
                     to design solutions that feel natural and inclusive.
                   </h3>
@@ -70,7 +70,7 @@ export function DesignPhilosophy() {
                   <h2 className="font-bold text-2xl text-[#505050]">
                     Clarity Through Simplicity
                   </h2>
-                  <h3 className="text-[#505050] text-2xl font-normal">
+                  <h3 className="text-[#505050] text-2xl font-normal font-helvetica400">
                     I remove unnecessary friction. Every interaction should feel
                     intuitive, purposeful, and easy to understand.
                   </h3>
@@ -87,10 +87,10 @@ export function DesignPhilosophy() {
                 <WorkflowAnimation />
                 <div></div>
                 <div className="">
-                  <h2 className="font-bold text-2xl text-[#505050]">
+                  <h2 className="text-2xl text-[#505050]">
                     Collaboration Fuels Innovation
                   </h2>
-                  <h3 className="text-[#505050] text-2xl font-normal">
+                  <h3 className="text-[#505050] text-2xl font-normal font-helvetica400">
                     I thrive in cross-functional teams, working closely with
                     stakeholders to turn insights into tangible outcomes.
                   </h3>
@@ -107,10 +107,10 @@ export function DesignPhilosophy() {
                 <AnimatedChart className="-top-20 w-fit left-10 absolute" />
                 <span></span>
                 <div className="">
-                  <h2 className="font-bold text-2xl text-[#505050]">
+                  <h2 className="text-2xl text-[#505050]">
                     Human-centered, Always
                   </h2>
-                  <h3 className="text-[#505050] text-2xl font-normal">
+                  <h3 className="text-[#505050] text-2xl font-normal font-helvetica400">
                     I start with people, their needs, stories, and frustrations
                     to design solutions that feel natural and inclusive.
                   </h3>

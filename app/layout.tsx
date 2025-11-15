@@ -16,11 +16,19 @@ const shadowsIntoLight = Shadows_Into_Light({
 });
 
 const myCustomFont = localFont({
-  src: "../public/font/HelveticaNeueBlack.otf",
+  src: "../public/font/HelveticaNeueBold.otf",
   display: "swap",
   weight: "500",
   style: "medieum",
   variable: "--font-helvetica",
+});
+
+const myCustomFont400 = localFont({
+  src: "../public/font/HelveticaNeueThin.otf",
+  display: "swap",
+  weight: "400",
+  style: "medieum",
+  variable: "--font-helvetica400",
 });
 
 const brick = Bricolage_Grotesque({
@@ -42,9 +50,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${brick.variable} ${shadowsIntoLight.variable} ${myCustomFont.variable} bg-[#F4F2FB] mt-7 font-helvetica`}
+        className={`${brick.variable} ${myCustomFont400.variable} ${shadowsIntoLight.variable} ${myCustomFont.variable} bg-[#F4F2FB] mt-7 font-helvetica px-5 [1440px]:px-0`}
       >
-        <main className="min-h-screen max-w-[1440px] mx-[32px] md:mx-[40px] xl:mx-[120px]">
+        <main className="min-h-screen max-w-[1440px] mx-auto">
           <Nav />
           {children}
         </main>
