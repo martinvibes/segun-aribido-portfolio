@@ -211,7 +211,7 @@ const Farely = () => {
         />
       </div>
 
-      {/* Outcome */}
+      {/* Outcome section */}
       <div className="flex flex-col items-start mt-12 sm:mt-16 lg:mt-[120px]">
         <div className="w-full lg:w-[383px] lg:shrink-0 lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto box-border">
           <h2 className="text-[#1A1A1A] text-2xl sm:text-3xl lg:text-[32px] font-bold wrap-break-word">
