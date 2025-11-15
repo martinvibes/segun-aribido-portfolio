@@ -42,7 +42,7 @@ export function DesignPhilosophy() {
               <Image
                 src={one}
                 alt="one"
-                className="absolute right-4 sm:right-6 md:right-10 bottom-4 z-0 w-16 sm:w-20 md:w-auto h-auto"
+                className="absolute right-4 sm:right-6 md:right-10 top-4 bottom-4 z-0 w-auto h-[calc(100%-2rem)] object-contain"
               />
               <div className="flex h-full flex-col justify-between pl-4 sm:pl-6 md:pl-8 lg:pl-12 max-w-full lg:max-w-[439px] z-50 relative">
                 {/* <AnimatedAvatars /> */}
@@ -73,11 +73,11 @@ export function DesignPhilosophy() {
               <Image
                 src={two}
                 alt="two"
-                className="absolute right-2 sm:right-4 md:right-5 bottom-4 z-0 w-16 sm:w-20 md:w-auto h-auto"
+                className="absolute right-2 sm:right-4 md:right-5 top-4 bottom-4 z-0 w-auto h-[calc(100%-2rem)] object-contain"
               />
               <div className="flex h-full flex-col justify-between pl-4 sm:pl-6 md:pl-8 lg:pl-12 max-w-full lg:max-w-[439px] z-50 relative">
                 {/* <CardStackAnimation /> */}
-                <div className="w-full sm:w-[160px] md:w-[180px] lg:w-[210px] h-auto -ml-0 sm:-ml-1 md:-ml-2">
+                <div className="w-full sm:w-[160px] md:w-[180px] lg:w-[210px] h-auto ml-0 sm:-ml-1 md:-ml-2">
                   <video
                     src="/video/Not.mp4"
                     autoPlay
@@ -104,7 +104,7 @@ export function DesignPhilosophy() {
               <Image
                 src={three}
                 alt="three"
-                className="absolute right-4 sm:right-6 md:right-10 bottom-4 z-0 h-[85%] sm:h-[90%] md:h-[92%] w-auto"
+                className="absolute right-4 sm:right-6 md:right-10 top-4 bottom-4 z-0 w-auto h-[calc(100%-2rem)] object-contain"
               />
               <div className="flex h-full flex-col justify-between pl-2 sm:pl-3 md:pl-4 lg:pl-4.5 max-w-full lg:max-w-[439px] z-50 relative">
                 {/* <WorkflowAnimation /> */}
@@ -135,7 +135,7 @@ export function DesignPhilosophy() {
               <Image
                 src={four}
                 alt="four"
-                className="absolute right-2 sm:right-4 md:right-5 bottom-4 z-0 w-16 sm:w-20 md:w-auto h-auto"
+                className="absolute right-2 sm:right-4 md:right-5 top-4 bottom-4 z-0 w-auto h-[calc(100%-2rem)] object-contain"
               />
               <div className="flex h-full flex-col justify-between pl-4 sm:pl-6 md:pl-8 lg:pl-12 max-w-full lg:max-w-[439px] z-50 relative">
                 {/* <AnimatedChart className="-top-20 w-fit left-10 absolute" /> */}
