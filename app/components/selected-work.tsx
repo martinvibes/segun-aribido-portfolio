@@ -57,10 +57,13 @@ tools, guidance, and community they need.`,
           Proof of impact, stories behind the pixels.
         </h4>
       </div>
-      <div className="grid grid-cols-3 gap-y-12">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-9 w-full">
         {mockData.map((data, key) => {
           return (
-            <div key={key} className="max-w-[376px] bg-[#FFFFFF] rounded-lg">
+            <div
+              key={key}
+              className="mx-w-[376px] w-full bg-[#FFFFFF] rounded-lg"
+            >
               <Image src={data.image} alt="" className="rounded-t-lg" />
               <div className="py-5 px-7">
                 <h3 className="text-[#87909D] text-[13px]">

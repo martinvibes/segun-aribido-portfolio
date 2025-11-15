@@ -93,8 +93,8 @@ export function HeroDesign() {
   };
 
   return (
-    <div className="relative h-40 flex items-center justify-center mb-16 overflow-visible">
-      <motion.div
+    <div className="relative w-[605px] h-auto mx-auto flex items-center justify-center overflow-visible">
+      {/* <motion.div
         className="inline-flex items-center gap-1 relative"
         onHoverStart={handleHoverStart}
         onHoverEnd={handleHoverEnd}
@@ -206,7 +206,15 @@ export function HeroDesign() {
             </motion.div>
           )}
         </AnimatePresence>
-      </motion.div>
+      </motion.div> */}
+      <video
+        src="/video/cci_hero.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      />
     </div>
   );
 }

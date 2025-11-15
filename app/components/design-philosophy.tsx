@@ -45,8 +45,18 @@ export function DesignPhilosophy() {
                 className="absolute right-10 bottom-4 z-0"
               />
               <div className="flex h-full flex-col justify-between pl-12 max-w-[439px] z-50 relative">
-                <AnimatedAvatars />
-                <div></div>
+                {/* <AnimatedAvatars /> */}
+                <div className="w-[180px] h-full">
+                  <video
+                    src="/video/y.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto"
+                  />
+                </div>
+
                 <div className="">
                   <h2 className="font-bold text-2xl text-[#505050]">
                     Human-centered, Always
@@ -58,6 +68,7 @@ export function DesignPhilosophy() {
                 </div>
               </div>
             </div>
+
             <div className="bg-[#F1E7FF] relative py-10 min-h-[360px] rounded-2xl">
               <Image
                 src={two}
@@ -65,7 +76,18 @@ export function DesignPhilosophy() {
                 className="absolute right-5 bottom-4 z-0"
               />
               <div className="flex h-full flex-col justify-between pl-12 max-w-[439px] z-50 relative">
-                <CardStackAnimation />
+                {/* <CardStackAnimation /> */}
+                <div className="w-[210px] h-full -ml-2">
+                  <video
+                    src="/video/Not.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto"
+                  />
+                </div>
+
                 <div className="">
                   <h2 className="font-bold text-2xl text-[#505050]">
                     Clarity Through Simplicity
@@ -77,14 +99,26 @@ export function DesignPhilosophy() {
                 </div>
               </div>
             </div>
+
             <div className="bg-[#D3F6E3] relative py-10 min-h-[360px] rounded-2xl">
               <Image
                 src={three}
                 alt="three"
                 className="absolute right-10 bottom-4 z-0 h-[92%]"
               />
-              <div className="flex h-full flex-col justify-between pl-12 max-w-[439px] z-50 relative">
-                <WorkflowAnimation />
+              <div className="flex h-full flex-col justify-between pl-4.5 max-w-[439px] z-50 relative">
+                {/* <WorkflowAnimation /> */}
+                <div className="w-[340px] h-full -ml-2">
+                  <video
+                    src="/video/col.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto"
+                  />
+                </div>
+
                 <div></div>
                 <div className="">
                   <h2 className="text-2xl text-[#505050]">
@@ -97,14 +131,24 @@ export function DesignPhilosophy() {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFCFB4] relative py-10 min-h-[360px] rounded-2xl">
+            <div className="bg-[#fed5bc] relative py-10 min-h-[360px] rounded-2xl">
               <Image
                 src={four}
                 alt="four"
                 className="absolute right-5 bottom-4 z-0"
               />
               <div className="flex h-full flex-col justify-between pl-12 max-w-[439px] z-50 relative">
-                <AnimatedChart className="-top-20 w-fit left-10 absolute" />
+                {/* <AnimatedChart className="-top-20 w-fit left-10 absolute" /> */}
+                <div className="w-[296px] h-full bg-transparent -ml-2 mb-[55px]">
+                  <video
+                    src="/video/growth grap.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto bg-transparent"
+                  />
+                </div>
                 <span></span>
                 <div className="">
                   <h2 className="text-2xl text-[#505050]">
