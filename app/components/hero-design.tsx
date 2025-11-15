@@ -93,7 +93,7 @@ export function HeroDesign() {
   };
 
   return (
-    <div className="relative w-[605px] h-auto mx-auto flex items-center justify-center overflow-visible">
+    <div className="relative w-full max-w-full lg:w-[605px] h-auto mx-auto flex items-center justify-center overflow-visible  box-border">
       {/* <motion.div
         className="inline-flex items-center gap-1 relative"
         onHoverStart={handleHoverStart}
@@ -213,7 +213,7 @@ export function HeroDesign() {
         muted
         loop
         playsInline
-        className="w-full h-full object-cover"
+        className="w-full h-auto object-cover rounded-lg"
       />
     </div>
   );

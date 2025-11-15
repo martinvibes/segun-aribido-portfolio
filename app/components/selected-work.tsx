@@ -50,33 +50,44 @@ tools, guidance, and community they need.`,
   ];
 
   return (
-    <div id="work" className="scroll-smooth top-[150px] self-start">
-      <div className="text-[#505050] text-center mb-10">
-        <h2 className="font-medium text-[40px]">Selected Work</h2>
-        <h4 className="text-2xl font-normal">
+    <div
+      id="work"
+      className="scroll-smooth lg:top-[150px] lg:self-start max-w-full box-border"
+    >
+      <div className="text-[#505050] text-center mb-6 sm:mb-8 md:mb-10 px-4 sm:px-6 md:px-8">
+        <h2 className="font-medium text-2xl sm:text-3xl md:text-4xl lg:text-[40px] break-words">
+          Selected Work
+        </h2>
+        <h4 className="text-lg sm:text-xl md:text-2xl font-normal mt-2 break-words">
           Proof of impact, stories behind the pixels.
         </h4>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-9 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-9 w-full max-w-full box-border">
         {mockData.map((data, key) => {
           return (
             <div
               key={key}
-              className="mx-w-[376px] w-full bg-[#FFFFFF] rounded-lg"
+              className="max-w-full w-full bg-[#FFFFFF] rounded-lg overflow-hidden"
             >
-              <Image src={data.image} alt="" className="rounded-t-lg" />
-              <div className="py-5 px-7">
-                <h3 className="text-[#87909D] text-[13px]">
+              <Image
+                src={data.image}
+                alt=""
+                className="rounded-t-lg w-full h-auto"
+              />
+              <div className="py-4 sm:py-5 px-4 sm:px-6 md:px-7">
+                <h3 className="text-[#87909D] text-xs sm:text-[13px]">
                   {data.header.includes("Cubos") ? "UI DESIGN" : "UX/UI DESIGN"}
                 </h3>
-                <h2 className="text-[18px] text-[#1A1A1A] font-bold">
+                <h2 className="text-base sm:text-lg lg:text-[18px] text-[#1A1A1A] font-bold mt-1 break-words">
                   {data.header}
                 </h2>
-                <h4 className="text-[#556070] text-[14px]">{data.text}</h4>
-                <div className="mt-10 mb-2">
+                <h4 className="text-[#556070] text-sm sm:text-[14px] mt-1 break-words">
+                  {data.text}
+                </h4>
+                <div className="mt-6 sm:mt-8 md:mt-10 mb-2">
                   <Link
                     href={data.link}
-                    className="flex border border-[#132238] cursor-pointer items-center w-fit py-2 px-4 text-[#132238] gap-3 rounded-lg"
+                    className="flex border border-[#132238] cursor-pointer items-center w-fit py-2 px-3 sm:px-4 text-[#132238] gap-2 sm:gap-3 rounded-lg text-sm sm:text-base"
                   >
                     <span>Case study</span>
                     <ArrowLeft size="24" />

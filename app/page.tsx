@@ -9,10 +9,10 @@ import SelectedWork from "./components/selected-work";
 export default function Home() {
   return (
     <section className="">
-      <header>
+      <header className="">
         <HeroIntro />
         <HeroDesign />
-        <div className="flex justify-center my-2">
+        <div className="flex justify-center my-4 sm:my-6 md:my-8 lg:my-2">
           <button
             onClick={() =>
               window.open(
@@ -20,14 +20,14 @@ export default function Home() {
                 "_blank"
               )
             }
-            className="bg-[#1A1A1A] py-4 px-8 cursor-pointer rounded-lg mx-auto"
+            className="bg-[#1A1A1A] py-3 sm:py-3.5 md:py-4 px-8 cursor-pointer rounded-lg mx-auto text-sm sm:text-base"
           >
             <span className="border-[#FFFFFF] pb-px border-b"> Contact me</span>
           </button>
         </div>
       </header>
 
-      <div className="my-20">
+      <div className="my-12 sm:my-16 md:my-20">
         <DesignPhilosophy />
       </div>
       <SelectedWork />

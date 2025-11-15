@@ -213,7 +213,7 @@ const Farely = () => {
 
       {/* Outcome */}
       <div className=" gap-10 items-start mt-[120px] w-[543px]">
-        <div className="w-[383px] shrink-0 sticky top-0 self-start">
+        <div className="w-[383px] shrink-0 ">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {outcomeSection.leftTitle}
           </h2>
@@ -235,7 +235,7 @@ const Farely = () => {
 
       {/* Reflection */}
       <div className=" gap-10 items-start mt-[88px] mb-[108px] w-[543px]">
-        <div className="w-[383px] shrink-0 sticky top-0 self-start">
+        <div className="w-[383px] shrink-0 ">
           <h2 className="text-[#1A1A1A] text-[32px] font-bold">
             {reflectionSection.leftTitle}
           </h2>
