@@ -71,7 +71,11 @@ export default function LastPart() {
           </h4>
           <span className="text-[#556070] text-base sm:text-lg font-helvetica400">
             View the live project:{" "}
-            <a href="www.welkom-u.ca" className="underline break-all">
+            <a
+              href="https://www.welkom-u.ca/"
+              className="underline break-all"
+              target="_blank"
+            >
               www.welkom-u.ca
             </a>{" "}
           </span>

@@ -58,7 +58,7 @@ export default function RootLayout({
       <body
         className={`${brick.variable} ${myCustomFont400.variable} ${shadowsIntoLight.variable} ${myCustomFont.variable} bg-[#F4F2FB] mt-7 font-helvetica  [1440px]:px-0`}
       >
-        <main className="min-h-screen max-w-[1440px] mx-[32px] lg:mx-[120px]">
+        <main className="min-h-screen max-w-[1440px] mx-[32px] sm:mx-[40px] lg:mx-[60px] xl:mx-[120px]">
           <Nav />
           {children}
         </main>

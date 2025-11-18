@@ -1,4 +1,3 @@
-import Link from "next/link";
 import rvo from "../../public/RV0_9585 2 (3).png";
 import group from "../../public/Group 16.svg";
 import challenger from "../../public/Challenge.svg";
@@ -17,14 +16,14 @@ export default function GetSaved() {
             </h2>
             <h4 className="text-[#556070] text-base sm:text-lg lg:text-[18px] wrap-break-word font-helvetica400">
               Empowering your financial journey through smarter saving tools.
-              https://getsave.io/
             </h4>
-            <Link
+            <a
               className="text-[#556070] font-helvetica400 text-sm sm:text-base lg:text-lg font-medium underline break-all"
               href="https://getsave.io/"
+              target="_blank"
             >
               https://getsave.io/
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-[528px] xl:w-[628px] lg:shrink-0 grid gap-6 sm:gap-8 text-[#556070] max-w-full box-border min-w-0">

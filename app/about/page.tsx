@@ -1,7 +1,36 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import about1 from "@/public/about/about.png";
+import about2 from "@/public/about/about2.png";
+import about3 from "@/public/about/about3.png";
+import about4 from "@/public/about/about4.png";
+import about5 from "@/public/about/about5.png";
+import about6 from "@/public/about/about6.png";
+import about7 from "@/public/about/about7.png";
+import about8 from "@/public/about/about8.png";
 
 const AboutPage = () => {
+  const [currentAboutImage, setCurrentAboutImage] = useState(0);
+  const aboutImages = [
+    about1,
+    about2,
+    about3,
+    about4,
+    about5,
+    about6,
+    about7,
+    about8,
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentAboutImage((prev) => (prev + 1) % aboutImages.length);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [aboutImages.length]);
+
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between gap-6 sm:gap-8 lg:gap-10 mt-8 sm:mt-12 md:mt-16 mb-12 sm:mb-16 md:mb-24 lg:pb-[100px] max-w-full box-border">
       {/* Left Section */}
@@ -9,7 +38,7 @@ const AboutPage = () => {
         {/* Portrait Image */}
         <div className="mb-4 sm:mb-6">
           <Image
-            src="/about/about.png"
+            src={aboutImages[currentAboutImage]}
             alt="Olusegun Aribido"
             width={400}
             height={400}

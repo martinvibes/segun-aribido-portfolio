@@ -5,10 +5,10 @@ import one from "../../public/1.svg";
 import two from "../../public/2.svg";
 import three from "../../public/3.svg";
 import four from "../../public/4.svg";
-import { AnimatedChart } from "./chart-animation";
-import AnimatedAvatars from "./avatars";
-import { WorkflowAnimation } from "./workflow";
-import CardStackAnimation from "./clarity-animation";
+// import { AnimatedChart } from "./chart-animation";
+// import AnimatedAvatars from "./avatars";
+// import { WorkflowAnimation } from "./workflow";
+// import CardStackAnimation from "./clarity-animation";
 import bg from "../../public/ruler.png";
 export function DesignPhilosophy() {
   return (
@@ -42,6 +42,7 @@ export function DesignPhilosophy() {
         </div>
         <div className="max-w-full box-border">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+            {/* Human-centered, Always */}
             <div className="bg-[#CCE7FF] relative py-6 sm:py-8 md:py-10 min-h-[280px] sm:min-h-[320px] md:min-h-[360px] rounded-2xl overflow-hidden">
               <Image
                 src={one}
@@ -73,6 +74,7 @@ export function DesignPhilosophy() {
               </div>
             </div>
 
+            {/* Clarity Through Simplicity */}
             <div className="bg-[#F1E7FF] relative py-6 sm:py-8 md:py-10 min-h-[280px] sm:min-h-[320px] md:min-h-[360px] rounded-2xl overflow-hidden">
               <Image
                 src={two}
@@ -104,15 +106,16 @@ export function DesignPhilosophy() {
               </div>
             </div>
 
+            {/* Collaboration Fuels Innovation */}
             <div className="bg-[#D3F6E3] relative py-6 sm:py-8 md:py-10 min-h-[280px] sm:min-h-[320px] md:min-h-[360px] rounded-2xl overflow-hidden">
               <Image
                 src={three}
                 alt="three"
                 className="absolute right-4 sm:right-6 md:right-10 top-4 bottom-4 z-0 w-auto h-[calc(100%-2rem)] object-contain"
               />
-              <div className="flex h-full flex-col justify-between pl-2 sm:pl-3 md:pl-4 lg:pl-4.5 max-w-full lg:max-w-[439px] z-50 relative">
+              <div className="flex h-full flex-col justify-between  max-w-full lg:max-w-[439px] z-50 relative">
                 {/* <WorkflowAnimation /> */}
-                <div className="w-full sm:w-[240px] md:w-[280px] lg:w-[340px] h-auto -ml-0 sm:-ml-1 md:-ml-2">
+                <div className="w-full sm:w-[240px] md:w-[280px] lg:w-[340px] h-auto -ml-0 sm:-ml-1 md:-ml-2 pl-2 sm:pl-3 md:pl-4 lg:pl-4.5">
                   <video
                     src="/video/col.mp4"
                     autoPlay
@@ -123,9 +126,8 @@ export function DesignPhilosophy() {
                   />
                 </div>
 
-                <div></div>
-                <div className="mt-4 sm:mt-6">
-                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
+                <div className="mt-4 sm:mt-6 pl-4 sm:pl-6 md:pl-8 lg:pl-12">
+                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
                     Collaboration Fuels Innovation
                   </h2>
                   <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
@@ -135,6 +137,8 @@ export function DesignPhilosophy() {
                 </div>
               </div>
             </div>
+
+            {/* Measurable Impact */}
             <div className="bg-[#fed5bc] relative py-6 sm:py-8 md:py-10 min-h-[280px] sm:min-h-[320px] md:min-h-[360px] rounded-2xl overflow-hidden">
               <Image
                 src={four}
@@ -155,12 +159,12 @@ export function DesignPhilosophy() {
                 </div>
                 <span></span>
                 <div className="mt-4 sm:mt-6">
-                  <h2 className="text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
-                    Human-centered, Always
+                  <h2 className="font-bold text-lg sm:text-xl md:text-2xl text-[#505050] wrap-break-word">
+                    Measurable Impact
                   </h2>
                   <h3 className="text-[#505050] text-sm sm:text-base md:text-lg lg:text-2xl font-normal font-helvetica400 mt-1 sm:mt-2 wrap-break-word">
-                    I start with people, their needs, stories, and frustrations
-                    to design solutions that feel natural and inclusive.
+                    Design doesn’t end at delivery. I measure impact, gather
+                    feedback, and iterate to make every release better.
                   </h3>
                 </div>
               </div>
